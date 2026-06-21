@@ -1,19 +1,3 @@
----
-type: "pdf"
-
-format: "A4"
-
-margin: "20mm"
-
-printBackground: true
-
-displayHeaderFooter: true
-
-headerTemplate: "<div style='font-size: 10px; margin-left: 20px;'>Progetto Active Directory - Security</div>
-
-footerTemplate: "<div style='font-size: 10px; margin-left: 20px;'>Lab. di Sicurezza dei Sistemi e Privacy<span class=pageNumber'></spam> / <span class='totalPages'></span></div>
----
-<!-- la parte qui sopra è stata aggiunta su suggerimento di Gemini per fomattare correttamente il PDF in uscita dal plugin "markdown PDF" -->
 
 
 # Progetto Active Directory - Security
