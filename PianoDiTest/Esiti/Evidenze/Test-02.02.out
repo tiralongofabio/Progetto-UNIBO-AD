@@ -1,0 +1,20 @@
+﻿TestId=Test-02.02
+Started=2026-06-09T19:18:41.7006466+02:00
+Computer=DC01
+User=AD-LAB-DOMAIN\admin.it.user03
+---
+2026-06-09T19:18:41.7161569+02:00 [PASS] Modulo importato: ActiveDirectory
+2026-06-09T19:18:41.7941555+02:00 [PASS] Dominio=ad-lab-domain.local DN=DC=ad-lab-domain,DC=local
+2026-06-09T19:18:42.0910787+02:00 [PASS] Modulo importato: GroupPolicy
+2026-06-09T19:18:42.2473095+02:00 [DATA] OU=OU=Workstations,OU=Computers,OU=LAB,DC=ad-lab-domain,DC=local Links=GPO-LAB-Workstations-Hardening;GPO-LAB-Workstations-Firewall
+2026-06-09T19:18:42.2629367+02:00 [PASS] Link presente: GPO-LAB-Workstations-Firewall
+2026-06-09T19:18:42.2785617+02:00 [DATA] OU=OU=AppServers,OU=Servers,OU=Computers,OU=LAB,DC=ad-lab-domain,DC=local Links=GPO-LAB-AppServers-Hardening;GPO-LAB-AppServers-Firewall
+2026-06-09T19:18:42.2785617+02:00 [PASS] Link presente: GPO-LAB-AppServers-Firewall
+2026-06-09T19:18:42.3098114+02:00 [DATA] OU=OU=DBServers,OU=Servers,OU=Computers,OU=LAB,DC=ad-lab-domain,DC=local Links=GPO-LAB-DBServers-Hardening;GPO-LAB-DBServers-Firewall
+2026-06-09T19:18:42.3254360+02:00 [PASS] Link presente: GPO-LAB-DBServers-Firewall
+2026-06-09T19:18:42.3410621+02:00 [DATA] OU=OU=FileServers,OU=Servers,OU=Computers,OU=LAB,DC=ad-lab-domain,DC=local Links=GPO-LAB-FileServers-Hardening;GPO-LAB-FileServers-Firewall
+2026-06-09T19:18:42.3566854+02:00 [PASS] Link presente: GPO-LAB-FileServers-Firewall
+---
+Warnings=0
+Completed=2026-06-09T19:18:42.3566854+02:00
+Result=PASS

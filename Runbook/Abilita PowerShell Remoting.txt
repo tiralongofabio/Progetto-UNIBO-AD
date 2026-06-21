@@ -1,0 +1,51 @@
+# Abilita PowerShell Remoting
+Enable-PSRemoting -Force
+
+# ICMP/ping inbound
+if (-not (Get-NetFirewallRule -DisplayName "LAB-Allow-ICMPv4-In" -ErrorAction SilentlyContinue)) {
+    New-NetFirewallRule `
+        -DisplayName "LAB-Allow-ICMPv4-In" `
+        -Protocol ICMPv4 `
+        -IcmpType 8 `
+        -Direction Inbound `
+        -Action Allow `
+        -Profile Any
+} `
+else {
+    Enable-NetFirewallRule -DisplayName "LAB-Allow-ICMPv4-In"
+}
+
+# SMB TCP 445 inbound
+if (-not (Get-NetFirewallRule -DisplayName "LAB-Allow-SMB-In" -ErrorAction SilentlyContinue)) {
+    New-NetFirewallRule `
+        -DisplayName "LAB-Allow-SMB-In" `
+        -Direction Inbound `
+        -Action Allow `
+        -Protocol TCP `
+        -LocalPort 445 `
+        -RemoteAddress "10.0.0.0/24" `
+        -Profile Any
+} `
+else {
+    Enable-NetFirewallRule -DisplayName "LAB-Allow-SMB-In"
+}
+
+# WinRM TCP 5985 inbound da DC01
+if (-not (Get-NetFirewallRule -DisplayName "LAB-Allow-WinRM-From-DC01" -ErrorAction SilentlyContinue)) {
+    New-NetFirewallRule `
+        -DisplayName "LAB-Allow-WinRM-From-DC01" `
+        -Direction Inbound `
+        -Action Allow `
+        -Protocol TCP `
+        -LocalPort 5985 `
+        -RemoteAddress "10.0.0.1" `
+        -Profile Any
+} `
+else {
+    Enable-NetFirewallRule -DisplayName "LAB-Allow-WinRM-From-DC01"
+}
+
+# Verifiche locali
+Get-Service WinRM
+Get-NetConnectionProfile
+Get-NetFirewallRule -DisplayName "LAB-Allow-ICMPv4-In", "LAB-Allow-SMB-In", "LAB-Allow-WinRM-From-DC01" | Select-Object DisplayName, Enabled, Profile

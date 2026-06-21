@@ -1,0 +1,8 @@
+$ErrorActionPreference="Stop"; $ScriptRoot="C:\LAB-AD\Scripts"; if(-not $Global:LabDN){& "$ScriptRoot\00-Init-LAB-Session.ps1"}; if(-not(Get-Command Ensure-ADUserLab -ErrorAction SilentlyContinue)){. "$ScriptRoot\01-Load-LAB-Helpers.ps1"}
+$Global:LabUsers=@(); foreach($d in $Departments){for($i=1;$i -le 4;$i++){$sam=($d.ToLower()+".user"+("{0:D2}" -f $i)); $Global:LabUsers += @{Sam=$sam;Given=$d;Surname=("User"+("{0:D2}" -f $i));Unit=$d;Type="Department";Director=($i -eq 1);Board=$false}}}; for($i=1;$i -le 4;$i++){$Global:LabUsers+=@{Sam=("board.user"+("{0:D2}" -f $i));Given="Board";Surname=("User"+("{0:D2}" -f $i));Unit="Board";Type="Governance";Director=$false;Board=$true}}
+foreach($u in $LabUsers){$ou= if($u.Type -eq 'Governance'){"OU=$($u.Unit),OU=Governance,$LabDN"}else{"OU=$($u.Unit),OU=Departments,$LabDN"}; Ensure-ADUserLab $u.Sam $u.Given $u.Surname $ou $DefaultUserPassword "LAB standard user - $($u.Unit)" $true}
+$Global:AdminSourceUsers=@("it.user01","it.user02","it.user03","it.user04"); foreach($s in $AdminSourceUsers){Ensure-ADUserLab "admin.$s" "Admin" $s "OU=IT-Admins,OU=Admins,$LabDN" $AdminPassword "LAB separated admin account for $s" $true $false $true}
+Ensure-ADUserLab "super.user" "Super" "User" "OU=Break-Glass,OU=Admins,$LabDN" $BreakGlassPassword "LAB BREAK-GLASS emergency account" $true $true $true
+Ensure-ADUserLab "admin.backup" "Admin" "Backup" "OU=Honey-Objects,OU=Admins,$LabDN" $HoneyPassword "LAB HONEY OBJECT - monitored decoy account" $true $false $true
+Ensure-ADUserLab "svc.securityapp" "Service" "SecurityApp" "OU=SecurityApp,OU=ServiceAccounts,$LabDN" $ServicePassword "LAB service account - no interactive logon expected" $true $true $true
+Write-Host "[OK] Users complete" -ForegroundColor Green

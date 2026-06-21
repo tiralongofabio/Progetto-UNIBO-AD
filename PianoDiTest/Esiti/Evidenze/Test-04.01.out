@@ -1,0 +1,52 @@
+﻿TestId=Test-04.01
+Started=2026-06-09T19:36:15.4168607+02:00
+Computer=DC01
+User=AD-LAB-DOMAIN\admin.it.user03
+FileServer=SRV-FS-001
+---
+2026-06-09T19:36:17.2604726+02:00 [DATA] Share=ADMIN$; Path=C:\Windows; ABE=1
+2026-06-09T19:36:17.2720270+02:00 [DATA] Share=C$; Path=C:\; ABE=1
+2026-06-09T19:36:17.2720270+02:00 [DATA] Share=D$; Path=D:\; ABE=1
+2026-06-09T19:36:17.2917219+02:00 [DATA] Share=Departments; Path=D:\Shares\Departments; ABE=0
+2026-06-09T19:36:17.3037601+02:00 [DATA] Share=Governance; Path=D:\Shares\Governance; ABE=0
+2026-06-09T19:36:17.3037601+02:00 [DATA] Share=IPC$; Path=; ABE=1
+2026-06-09T19:36:17.3229780+02:00 [DATA] Share=Shared; Path=D:\Shares\Shared; ABE=0
+2026-06-09T19:36:17.3355105+02:00 [DATA] ShareAccess Share=ADMIN$; Account=BUILTIN\Administrators; Type=0; Right=0
+2026-06-09T19:36:17.3355105+02:00 [DATA] ShareAccess Share=ADMIN$; Account=BUILTIN\Backup Operators; Type=0; Right=0
+2026-06-09T19:36:17.3511536+02:00 [DATA] ShareAccess Share=ADMIN$; Account=NT AUTHORITY\INTERACTIVE; Type=0; Right=0
+2026-06-09T19:36:17.3672194+02:00 [DATA] ShareAccess Share=C$; Account=BUILTIN\Administrators; Type=0; Right=0
+2026-06-09T19:36:17.3672194+02:00 [DATA] ShareAccess Share=C$; Account=BUILTIN\Backup Operators; Type=0; Right=0
+2026-06-09T19:36:17.3854118+02:00 [DATA] ShareAccess Share=C$; Account=NT AUTHORITY\INTERACTIVE; Type=0; Right=0
+2026-06-09T19:36:17.3854118+02:00 [DATA] ShareAccess Share=D$; Account=BUILTIN\Administrators; Type=0; Right=0
+2026-06-09T19:36:17.3989431+02:00 [DATA] ShareAccess Share=D$; Account=BUILTIN\Backup Operators; Type=0; Right=0
+2026-06-09T19:36:17.4167193+02:00 [DATA] ShareAccess Share=D$; Account=NT AUTHORITY\INTERACTIVE; Type=0; Right=0
+2026-06-09T19:36:17.4307702+02:00 [DATA] ShareAccess Share=Departments; Account=BUILTIN\Administrators; Type=0; Right=0
+2026-06-09T19:36:17.4482441+02:00 [DATA] ShareAccess Share=Departments; Account=AD-LAB-DOMAIN\GG_LAB_BreakGlass; Type=0; Right=0
+2026-06-09T19:36:17.4628012+02:00 [DATA] ShareAccess Share=Departments; Account=AD-LAB-DOMAIN\GG_LAB_Admins; Type=0; Right=0
+2026-06-09T19:36:17.4628012+02:00 [DATA] ShareAccess Share=Departments; Account=AD-LAB-DOMAIN\GG_LAB_AllUsers; Type=0; Right=1
+2026-06-09T19:36:17.4795446+02:00 [DATA] ShareAccess Share=Departments; Account=AD-LAB-DOMAIN\GG_Board_Members; Type=0; Right=1
+2026-06-09T19:36:17.4945799+02:00 [DATA] ShareAccess Share=Departments; Account=AD-LAB-DOMAIN\GG_LAB_Directors; Type=0; Right=1
+2026-06-09T19:36:17.5108174+02:00 [DATA] ShareAccess Share=Governance; Account=BUILTIN\Administrators; Type=0; Right=0
+2026-06-09T19:36:17.5108174+02:00 [DATA] ShareAccess Share=Governance; Account=AD-LAB-DOMAIN\GG_LAB_BreakGlass; Type=0; Right=0
+2026-06-09T19:36:17.5263319+02:00 [DATA] ShareAccess Share=Governance; Account=AD-LAB-DOMAIN\GG_LAB_Admins; Type=0; Right=0
+2026-06-09T19:36:17.5418833+02:00 [DATA] ShareAccess Share=Governance; Account=AD-LAB-DOMAIN\GG_Board_Members; Type=0; Right=1
+2026-06-09T19:36:17.5418833+02:00 [DATA] ShareAccess Share=Governance; Account=AD-LAB-DOMAIN\GG_LAB_Directors; Type=0; Right=1
+2026-06-09T19:36:17.5575538+02:00 [DATA] ShareAccess Share=IPC$; Account=BUILTIN\Administrators; Type=0; Right=0
+2026-06-09T19:36:17.5730830+02:00 [DATA] ShareAccess Share=IPC$; Account=BUILTIN\Backup Operators; Type=0; Right=0
+2026-06-09T19:36:17.5887482+02:00 [DATA] ShareAccess Share=IPC$; Account=NT AUTHORITY\INTERACTIVE; Type=0; Right=0
+2026-06-09T19:36:17.5887482+02:00 [DATA] ShareAccess Share=Shared; Account=BUILTIN\Administrators; Type=0; Right=0
+2026-06-09T19:36:17.6042933+02:00 [DATA] ShareAccess Share=Shared; Account=AD-LAB-DOMAIN\GG_LAB_BreakGlass; Type=0; Right=0
+2026-06-09T19:36:17.6199595+02:00 [DATA] ShareAccess Share=Shared; Account=AD-LAB-DOMAIN\GG_LAB_Admins; Type=0; Right=0
+2026-06-09T19:36:17.6199595+02:00 [DATA] ShareAccess Share=Shared; Account=AD-LAB-DOMAIN\GG_LAB_AllUsers; Type=0; Right=1
+2026-06-09T19:36:17.6354929+02:00 [DATA] ShareAccess Share=Shared; Account=AD-LAB-DOMAIN\GG_Board_Members; Type=0; Right=1
+2026-06-09T19:36:17.6511595+02:00 [DATA] ShareAccess Share=Shared; Account=AD-LAB-DOMAIN\GG_LAB_Directors; Type=0; Right=1
+2026-06-09T19:36:17.6667115+02:00 [PASS] Share attesa presente: Departments -> D:\Shares\Departments
+2026-06-09T19:36:17.6824076+02:00 [PASS] Share attesa presente: Governance -> D:\Shares\Governance
+2026-06-09T19:36:17.6824076+02:00 [PASS] Share attesa presente: Shared -> D:\Shares\Shared
+2026-06-09T19:36:17.7291656+02:00 [PASS] Share Departments ha almeno una permission non amministrativa
+2026-06-09T19:36:17.7449001+02:00 [PASS] Share Governance ha almeno una permission non amministrativa
+2026-06-09T19:36:17.7604856+02:00 [PASS] Share Shared ha almeno una permission non amministrativa
+---
+Warnings=0
+Completed=2026-06-09T19:36:17.7761661+02:00
+Result=PASS

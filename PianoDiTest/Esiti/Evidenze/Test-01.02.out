@@ -1,0 +1,24 @@
+﻿TestId=Test-01.02
+Started=2026-06-09T19:15:17.8776608+02:00
+Computer=DC01
+User=AD-LAB-DOMAIN\admin.it.user03
+---
+2026-06-09T19:15:17.8776608+02:00 [PASS] Modulo importato: ActiveDirectory
+2026-06-09T19:15:17.9884468+02:00 [PASS] Dominio=ad-lab-domain.local DN=DC=ad-lab-domain,DC=local
+2026-06-09T19:15:18.0202016+02:00 [PASS] OU trovata: OU=LAB,DC=ad-lab-domain,DC=local
+2026-06-09T19:15:18.0362829+02:00 [PASS] OU trovata: OU=Departments,OU=LAB,DC=ad-lab-domain,DC=local
+2026-06-09T19:15:18.0362829+02:00 [PASS] OU trovata: OU=Governance,OU=LAB,DC=ad-lab-domain,DC=local
+2026-06-09T19:15:18.0519198+02:00 [PASS] OU trovata: OU=Admins,OU=LAB,DC=ad-lab-domain,DC=local
+2026-06-09T19:15:18.0679841+02:00 [PASS] OU trovata: OU=Groups,OU=LAB,DC=ad-lab-domain,DC=local
+2026-06-09T19:15:18.0679841+02:00 [PASS] OU trovata: OU=ServiceAccounts,OU=LAB,DC=ad-lab-domain,DC=local
+2026-06-09T19:15:18.0836239+02:00 [PASS] OU trovata: OU=Computers,OU=LAB,DC=ad-lab-domain,DC=local
+2026-06-09T19:15:18.0997073+02:00 [PASS] OU trovata: OU=Workstations,OU=Computers,OU=LAB,DC=ad-lab-domain,DC=local
+2026-06-09T19:15:18.0997073+02:00 [PASS] OU trovata: OU=Servers,OU=Computers,OU=LAB,DC=ad-lab-domain,DC=local
+2026-06-09T19:15:18.1223842+02:00 [PASS] OU trovata: OU=FileServers,OU=Servers,OU=Computers,OU=LAB,DC=ad-lab-domain,DC=local
+2026-06-09T19:15:18.1314159+02:00 [PASS] OU trovata: OU=AppServers,OU=Servers,OU=Computers,OU=LAB,DC=ad-lab-domain,DC=local
+2026-06-09T19:15:18.1314159+02:00 [PASS] OU trovata: OU=DBServers,OU=Servers,OU=Computers,OU=LAB,DC=ad-lab-domain,DC=local
+2026-06-09T19:15:18.1536542+02:00 [PASS] OU trovata: OU=Staging,OU=Computers,OU=LAB,DC=ad-lab-domain,DC=local
+---
+Warnings=0
+Completed=2026-06-09T19:15:18.1631959+02:00
+Result=PASS

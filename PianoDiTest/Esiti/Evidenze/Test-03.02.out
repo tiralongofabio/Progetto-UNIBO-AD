@@ -1,0 +1,79 @@
+﻿TestId=Test-03.02
+Started=2026-06-09T19:19:21.9036390+02:00
+Computer=DC01
+User=AD-LAB-DOMAIN\admin.it.user03
+---
+2026-06-09T19:19:22.4360380+02:00 [DATA] Profile=Domain Enabled=True In=Block
+2026-06-09T19:19:22.4567860+02:00 [PASS] Firewall attivo: Domain
+2026-06-09T19:19:22.4663122+02:00 [DATA] Profile=Private Enabled=True In=Block
+2026-06-09T19:19:22.4678226+02:00 [PASS] Firewall attivo: Private
+2026-06-09T19:19:22.4834928+02:00 [DATA] Profile=Public Enabled=True In=Block
+2026-06-09T19:19:22.4834928+02:00 [PASS] Firewall attivo: Public
+2026-06-09T19:19:22.4995787+02:00 [DATA] Rule=Funzionalità di base rete - IPv6 (IPv6-In) Action=Allow Profile=Any
+2026-06-09T19:19:22.5152397+02:00 [DATA] Rule=Ottimizzazione recapito (UDP-In) Action=Allow Profile=Any
+2026-06-09T19:19:22.5287508+02:00 [DATA] Rule=Server di flusso Trasmetti nel dispositivo (RTCP-Streaming-In) Action=Allow Profile=Private
+2026-06-09T19:19:22.5312987+02:00 [DATA] Rule=Funzionalità di base rete - Annuncio router (ICMPv6-In) Action=Allow Profile=Any
+2026-06-09T19:19:22.5312987+02:00 [DATA] Rule=Funzionalità di base rete - Destinazione non raggiungibile, necessaria frammentazione (ICMPv4-In) Action=Allow Profile=Any
+2026-06-09T19:19:22.5469585+02:00 [DATA] Rule=Funzionalità di base rete - DHCP (Dynamic Host Configuration Protocol) (DHCP-In) Action=Allow Profile=Any
+2026-06-09T19:19:22.5630013+02:00 [DATA] Rule=Condivisione file e stampanti (servizio spooler - RPC) Action=Allow Profile=Domain, Private, Public
+2026-06-09T19:19:22.5786393+02:00 [DATA] Rule=Funzionalità di base rete - Dynamic Host Configuration Protocol per IPv6 (DHCPV6-In) Action=Allow Profile=Any
+2026-06-09T19:19:22.5786393+02:00 [DATA] Rule=Server di flusso Trasmetti nel dispositivo (RTCP-Streaming-In) Action=Allow Profile=Domain
+2026-06-09T19:19:22.5946823+02:00 [DATA] Rule=Funzionalità di base rete - Richiesta individuazione router adiacenti (ICMPv6-In) Action=Allow Profile=Any
+2026-06-09T19:19:22.5946823+02:00 [DATA] Rule=Server di flusso Trasmetti nel dispositivo (RTSP-Streaming-In) Action=Allow Profile=Domain
+2026-06-09T19:19:22.6103601+02:00 [DATA] Rule=Fonte di rete di Microsoft Media Foundation IN [UDP 5004-5009] Action=Allow Profile=Any
+2026-06-09T19:19:22.6264233+02:00 [DATA] Rule=Gestione remota Windows (HTTP-In) Action=Allow Profile=Domain, Private
+2026-06-09T19:19:22.6264233+02:00 [DATA] Rule=Funzionalità Trasmetti nel dispositivo (qWave-UDP-In) Action=Allow Profile=Private, Public
+2026-06-09T19:19:22.6420777+02:00 [DATA] Rule=Ottimizzazione recapito (TCP-In) Action=Allow Profile=Any
+2026-06-09T19:19:22.6581754+02:00 [DATA] Rule=Condivisione file e stampanti (NB-Name-In) Action=Allow Profile=Domain, Private, Public
+2026-06-09T19:19:22.6581754+02:00 [DATA] Rule=Funzionalità di base rete - Richiesta router (ICMPv6-In) Action=Allow Profile=Any
+2026-06-09T19:19:22.6738431+02:00 [DATA] Rule=Strumentazione gestione Windows (DCOM-In) Action=Allow Profile=Domain, Private, Public
+2026-06-09T19:19:22.6898947+02:00 [DATA] Rule=Server protocollo DIAL (HTTP-In) Action=Allow Profile=Domain
+2026-06-09T19:19:22.6898947+02:00 [DATA] Rule=Condivisione file e stampanti (servizio spooler - RPC-EPMAP) Action=Allow Profile=Domain, Private, Public
+2026-06-09T19:19:22.7055617+02:00 [DATA] Rule=Fonte di rete di Microsoft Media Foundation IN [TCP 554] Action=Allow Profile=Any
+2026-06-09T19:19:22.7216089+02:00 [DATA] Rule=Funzionalità di base rete - Annuncio individuazione router adiacenti (ICMPv6-In) Action=Allow Profile=Any
+2026-06-09T19:19:22.7216089+02:00 [DATA] Rule=Servizio peer caching BITS (NB-Session-In) Action=Allow Profile=Domain, Private, Public
+2026-06-09T19:19:22.7372489+02:00 [DATA] Rule=Funzionalità di base rete - Problema parametro (ICMPv6-In) Action=Allow Profile=Any
+2026-06-09T19:19:22.7533288+02:00 [DATA] Rule=Server di flusso Trasmetti nel dispositivo (HTTP-Streaming-In) Action=Allow Profile=Private
+2026-06-09T19:19:22.7533288+02:00 [DATA] Rule=Funzionalità Trasmetti nel dispositivo (qWave-TCP-In) Action=Allow Profile=Private, Public
+2026-06-09T19:19:22.7689837+02:00 [DATA] Rule=Condivisione file e stampanti (richiesta echo - ICMPv4-In) Action=Allow Profile=Domain, Private, Public
+2026-06-09T19:19:22.7850432+02:00 [DATA] Rule=Funzionalità di base rete - Teredo (UDP-In) Action=Allow Profile=Any
+2026-06-09T19:19:22.7850432+02:00 [DATA] Rule=Condivisione file e stampanti (SMB-In) Action=Allow Profile=Domain, Private, Public
+2026-06-09T19:19:22.8007291+02:00 [DATA] Rule=Trasmetti nel dispositivo - Individuazione SSDP (UDP-In) Action=Allow Profile=Public
+2026-06-09T19:19:22.8167953+02:00 [DATA] Rule=mDNS (UDP-In) Action=Allow Profile=Private
+2026-06-09T19:19:22.8324506+02:00 [DATA] Rule=Trasmetti nel dispositivo - Eventi UPnP (TCP-In) Action=Allow Profile=Public
+2026-06-09T19:19:22.8485486+02:00 [DATA] Rule=Funzionalità di base rete - Pacchetto di dimensioni troppo grandi (ICMPv6-In) Action=Allow Profile=Any
+2026-06-09T19:19:22.8485486+02:00 [DATA] Rule=Funzionalità di base rete - IPHTTPS (TCP-In) Action=Allow Profile=Any
+2026-06-09T19:19:22.8642137+02:00 [DATA] Rule=Router AllJoyn (TCP-In) Action=Allow Profile=Domain, Private
+2026-06-09T19:19:22.8802785+02:00 [DATA] Rule=Router AllJoyn (UDP-In) Action=Allow Profile=Domain, Private
+2026-06-09T19:19:22.8802785+02:00 [DATA] Rule=Funzionalità di base rete - Listener multicast completato (ICMPv6-In) Action=Allow Profile=Any
+2026-06-09T19:19:22.8959559+02:00 [DATA] Rule=Server di flusso Trasmetti nel dispositivo (RTSP-Streaming-In) Action=Allow Profile=Private
+2026-06-09T19:19:22.9120422+02:00 [DATA] Rule=Funzionalità di base rete - Destinazione non raggiungibile (ICMPv6-In) Action=Allow Profile=Any
+2026-06-09T19:19:22.9437247+02:00 [DATA] Rule=Gestione remota Windows (HTTP-In) Action=Allow Profile=Public
+2026-06-09T19:19:22.9593674+02:00 [DATA] Rule=Condivisione file e stampanti (richiesta echo - ICMPv6-In) Action=Allow Profile=Domain, Private, Public
+2026-06-09T19:19:22.9754244+02:00 [DATA] Rule=Server di flusso Trasmetti nel dispositivo (RTCP-Streaming-In) Action=Allow Profile=Public
+2026-06-09T19:19:22.9910800+02:00 [DATA] Rule=Server di flusso Trasmetti nel dispositivo (HTTP-Streaming-In) Action=Allow Profile=Domain
+2026-06-09T19:19:22.9976121+02:00 [DATA] Rule=Server di flusso Trasmetti nel dispositivo (HTTP-Streaming-In) Action=Allow Profile=Public
+2026-06-09T19:19:23.0071477+02:00 [DATA] Rule=Funzionalità di base rete - IGMP (Internet Group Management Protocol) (IGMP-In) Action=Allow Profile=Any
+2026-06-09T19:19:23.0228136+02:00 [DATA] Rule=Server di flusso Trasmetti nel dispositivo (RTSP-Streaming-In) Action=Allow Profile=Public
+2026-06-09T19:19:23.0389333+02:00 [DATA] Rule=Funzionalità di base rete - Report listener multicast v2 (ICMPv6-In) Action=Allow Profile=Any
+2026-06-09T19:19:23.0389333+02:00 [DATA] Rule=Condivisione file e stampanti (NB-Datagram-In) Action=Allow Profile=Domain, Private, Public
+2026-06-09T19:19:23.0601651+02:00 [DATA] Rule=Funzionalità di base rete - Query listener multicast (ICMPv6-In) Action=Allow Profile=Any
+2026-06-09T19:19:23.0707370+02:00 [DATA] Rule=Condivisione file e stampanti (LLMNR-UDP-In) Action=Allow Profile=Domain, Private, Public
+2026-06-09T19:19:23.0864058+02:00 [DATA] Rule=Funzionalità di base rete - Report listener multicast (ICMPv6-In) Action=Allow Profile=Any
+2026-06-09T19:19:23.1025387+02:00 [DATA] Rule=Server protocollo DIAL (HTTP-In) Action=Allow Profile=Private
+2026-06-09T19:19:23.1025387+02:00 [DATA] Rule=Funzionalità di base rete - Tempo scaduto (ICMPv6-In) Action=Allow Profile=Any
+2026-06-09T19:19:23.1227234+02:00 [DATA] Rule=mDNS (UDP-In) Action=Allow Profile=Domain
+2026-06-09T19:19:23.1342667+02:00 [DATA] Rule=mDNS (UDP-In) Action=Allow Profile=Public
+2026-06-09T19:19:23.1499418+02:00 [DATA] Rule=Microsoft Edge (mDNS-In) Action=Allow Profile=Any
+2026-06-09T19:19:23.1539660+02:00 [DATA] Rule=Il tuo account Action=Allow Profile=Domain, Private
+2026-06-09T19:19:23.1660011+02:00 [DATA] Rule=Account aziendale o dell'istituto di istruzione Action=Allow Profile=Domain, Private
+2026-06-09T19:19:23.1817097+02:00 [DATA] Rule=Start Action=Allow Profile=Domain, Private
+2026-06-09T19:19:23.1852394+02:00 [DATA] Rule=Windows Search Action=Allow Profile=Domain, Private
+2026-06-09T19:19:23.4974399+02:00 [PASS] Porta attesa DC01:53 raggiungibile
+2026-06-09T19:19:23.6379849+02:00 [PASS] Porta attesa DC01:88 raggiungibile
+2026-06-09T19:19:23.7785948+02:00 [PASS] Porta attesa DC01:389 raggiungibile
+2026-06-09T19:19:23.9192299+02:00 [PASS] Porta attesa DC01:445 raggiungibile
+---
+Warnings=0
+Completed=2026-06-09T19:19:23.9348497+02:00
+Result=PASS

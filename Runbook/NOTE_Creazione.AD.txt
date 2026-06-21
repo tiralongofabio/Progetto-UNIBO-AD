@@ -1,0 +1,204 @@
+## GRUPPI
+
+Name                                GroupScope GroupCategory Description
+----                                ---------- ------------- -----------
+DL_FS_Finance_Confidential_FC      DomainLocal      Security Finance Confidential full control
+DL_FS_Finance_Confidential_MD      DomainLocal      Security Finance Confidential modify
+DL_FS_Finance_Internal_FC          DomainLocal      Security Finance Internal full control
+DL_FS_Finance_Internal_MD          DomainLocal      Security Finance Internal modify
+DL_FS_Finance_Public_FC            DomainLocal      Security Finance Public full control
+DL_FS_Finance_Public_MD            DomainLocal      Security Finance Public modify
+DL_FS_Finance_Public_RO            DomainLocal      Security Finance Public read-only
+DL_FS_Finance_Public_WO            DomainLocal      Security Finance Public add-only/drop-box
+DL_FS_Governance_BoardDirectors_FC DomainLocal      Security Full Control BoardDirectors
+DL_FS_Governance_BoardDirectors_MD DomainLocal      Security Modify BoardDirectors
+DL_FS_Governance_BoardOnly_FC      DomainLocal      Security Full Control BoardOnly
+DL_FS_Governance_BoardOnly_MD      DomainLocal      Security Modify BoardOnly
+DL_FS_HR_Confidential_FC           DomainLocal      Security HR Confidential full control
+DL_FS_HR_Confidential_MD           DomainLocal      Security HR Confidential modify
+DL_FS_HR_Internal_FC               DomainLocal      Security HR Internal full control
+DL_FS_HR_Internal_MD               DomainLocal      Security HR Internal modify
+DL_FS_HR_Public_FC                 DomainLocal      Security HR Public full control
+DL_FS_HR_Public_MD                 DomainLocal      Security HR Public modify
+DL_FS_HR_Public_RO                 DomainLocal      Security HR Public read-only
+DL_FS_HR_Public_WO                 DomainLocal      Security HR Public add-only/drop-box
+DL_FS_IT_Confidential_FC           DomainLocal      Security IT Confidential full control
+DL_FS_IT_Confidential_MD           DomainLocal      Security IT Confidential modify
+DL_FS_IT_Internal_FC               DomainLocal      Security IT Internal full control
+DL_FS_IT_Internal_MD               DomainLocal      Security IT Internal modify
+DL_FS_IT_Public_FC                 DomainLocal      Security IT Public full control
+DL_FS_IT_Public_MD                 DomainLocal      Security IT Public modify
+DL_FS_IT_Public_RO                 DomainLocal      Security IT Public read-only
+DL_FS_IT_Public_WO                 DomainLocal      Security IT Public add-only/drop-box
+DL_FS_Marketing_Confidential_FC    DomainLocal      Security Marketing Confidential full control
+DL_FS_Marketing_Confidential_MD    DomainLocal      Security Marketing Confidential modify
+DL_FS_Marketing_Internal_FC        DomainLocal      Security Marketing Internal full control
+DL_FS_Marketing_Internal_MD        DomainLocal      Security Marketing Internal modify
+DL_FS_Marketing_Public_FC          DomainLocal      Security Marketing Public full control
+DL_FS_Marketing_Public_MD          DomainLocal      Security Marketing Public modify
+DL_FS_Marketing_Public_RO          DomainLocal      Security Marketing Public read-only
+DL_FS_Marketing_Public_WO          DomainLocal      Security Marketing Public add-only/drop-box
+DL_FS_Sales_Confidential_FC        DomainLocal      Security Sales Confidential full control
+DL_FS_Sales_Confidential_MD        DomainLocal      Security Sales Confidential modify
+DL_FS_Sales_Internal_FC            DomainLocal      Security Sales Internal full control
+DL_FS_Sales_Internal_MD            DomainLocal      Security Sales Internal modify
+DL_FS_Sales_Public_FC              DomainLocal      Security Sales Public full control
+DL_FS_Sales_Public_MD              DomainLocal      Security Sales Public modify
+DL_FS_Sales_Public_RO              DomainLocal      Security Sales Public read-only
+DL_FS_Sales_Public_WO              DomainLocal      Security Sales Public add-only/drop-box
+DL_FS_Shared_FC                    DomainLocal      Security Full control shared area
+DL_FS_Shared_MD                    DomainLocal      Security Modify shared area
+DL_FS_Shared_RO                    DomainLocal      Security Read shared area
+DL_RDP_SRV-APP-001_Admins          DomainLocal      Security RDP admins on future SRV-APP-001
+DL_RDP_SRV-DB-001_Admins           DomainLocal      Security RDP admins on future SRV-DB-001
+DL_RDP_SRV-FS-001_Admins           DomainLocal      Security RDP admins on SRV-FS-001
+GG_Board_Members                        Global      Security Board members
+GG_Finance_Director                     Global      Security Finance director
+GG_Finance_Users                        Global      Security Finance users
+GG_HR_Director                          Global      Security HR director
+GG_HR_Users                             Global      Security HR users
+GG_IT_Director                          Global      Security IT director
+GG_IT_Users                             Global      Security IT users
+GG_LAB_Admins                           Global      Security Separated admin accounts
+GG_LAB_AllUsers                         Global      Security All standard LAB users
+GG_LAB_AppServers                       Global      Security LAB application server computer accounts
+GG_LAB_BreakGlass                       Global      Security Emergency access accounts
+GG_LAB_DBServers                        Global      Security LAB database server computer accounts
+GG_LAB_Directors                        Global      Security All department directors
+GG_LAB_FileServers                      Global      Security LAB file server computer accounts
+GG_LAB_HoneyObjects                     Global      Security LAB honey/decoy accounts - no real privileges
+GG_Marketing_Director                   Global      Security Marketing director
+GG_Marketing_Users                      Global      Security Marketing users
+GG_Sales_Director                       Global      Security Sales director
+GG_Sales_Users                          Global      Security Sales users
+GG_SecurityApp                          Global      Security Security app/service accounts
+
+
+Totale gruppi presenti: 70
+
+
+
+## Utenti
+
+SamAccountName   Enabled Description                                                     DistinguishedName
+--------------   ------- -----------                                                     -----------------
+admin.backup        True LAB HONEY OBJECT - monitored decoy account - no real privileges CN=Admin Backup,OU=Honey-Objects,OU=Admins,OU=LAB,DC=ad-l...
+admin.it.user01     True LAB separated admin account for it.user01                       CN=Admin it.user01,OU=IT-Admins,OU=Admins,OU=LAB,DC=ad-la...
+admin.it.user02     True LAB separated admin account for it.user02                       CN=Admin it.user02,OU=IT-Admins,OU=Admins,OU=LAB,DC=ad-la...
+admin.it.user03     True LAB separated admin account for it.user03                       CN=Admin it.user03,OU=IT-Admins,OU=Admins,OU=LAB,DC=ad-la...
+admin.it.user04     True LAB separated admin account for it.user04                       CN=Admin it.user04,OU=IT-Admins,OU=Admins,OU=LAB,DC=ad-la...
+board.user01        True LAB standard user - Board                                       CN=Board User01,OU=Board,OU=Governance,OU=LAB,DC=ad-lab-d...
+board.user02        True LAB standard user - Board                                       CN=Board User02,OU=Board,OU=Governance,OU=LAB,DC=ad-lab-d...
+board.user03        True LAB standard user - Board                                       CN=Board User03,OU=Board,OU=Governance,OU=LAB,DC=ad-lab-d...
+board.user04        True LAB standard user - Board                                       CN=Board User04,OU=Board,OU=Governance,OU=LAB,DC=ad-lab-d...
+finance.user01      True LAB standard user - Finance                                     CN=Finance User01,OU=Finance,OU=Departments,OU=LAB,DC=ad-...
+finance.user02      True LAB standard user - Finance                                     CN=Finance User02,OU=Finance,OU=Departments,OU=LAB,DC=ad-...
+finance.user03      True LAB standard user - Finance                                     CN=Finance User03,OU=Finance,OU=Departments,OU=LAB,DC=ad-...
+finance.user04      True LAB standard user - Finance                                     CN=Finance User04,OU=Finance,OU=Departments,OU=LAB,DC=ad-...
+hr.user01           True LAB standard user - HR                                          CN=HR User01,OU=HR,OU=Departments,OU=LAB,DC=ad-lab-domain...
+hr.user02           True LAB standard user - HR                                          CN=HR User02,OU=HR,OU=Departments,OU=LAB,DC=ad-lab-domain...
+hr.user03           True LAB standard user - HR                                          CN=HR User03,OU=HR,OU=Departments,OU=LAB,DC=ad-lab-domain...
+hr.user04           True LAB standard user - HR                                          CN=HR User04,OU=HR,OU=Departments,OU=LAB,DC=ad-lab-domain...
+it.user01           True LAB standard user - IT                                          CN=IT User01,OU=IT,OU=Departments,OU=LAB,DC=ad-lab-domain...
+it.user02           True LAB standard user - IT                                          CN=IT User02,OU=IT,OU=Departments,OU=LAB,DC=ad-lab-domain...
+it.user03           True LAB standard user - IT                                          CN=IT User03,OU=IT,OU=Departments,OU=LAB,DC=ad-lab-domain...
+it.user04           True LAB standard user - IT                                          CN=IT User04,OU=IT,OU=Departments,OU=LAB,DC=ad-lab-domain...
+marketing.user01    True LAB standard user - Marketing                                   CN=Marketing User01,OU=Marketing,OU=Departments,OU=LAB,DC...
+marketing.user02    True LAB standard user - Marketing                                   CN=Marketing User02,OU=Marketing,OU=Departments,OU=LAB,DC...
+marketing.user03    True LAB standard user - Marketing                                   CN=Marketing User03,OU=Marketing,OU=Departments,OU=LAB,DC...
+marketing.user04    True LAB standard user - Marketing                                   CN=Marketing User04,OU=Marketing,OU=Departments,OU=LAB,DC...
+sales.user01        True LAB standard user - Sales                                       CN=Sales User01,OU=Sales,OU=Departments,OU=LAB,DC=ad-lab-...
+sales.user02        True LAB standard user - Sales                                       CN=Sales User02,OU=Sales,OU=Departments,OU=LAB,DC=ad-lab-...
+sales.user03        True LAB standard user - Sales                                       CN=Sales User03,OU=Sales,OU=Departments,OU=LAB,DC=ad-lab-...
+sales.user04        True LAB standard user - Sales                                       CN=Sales User04,OU=Sales,OU=Departments,OU=LAB,DC=ad-lab-...
+super.user          True LAB BREAK-GLASS emergency account - use only for recovery       CN=Super User,OU=Break-Glass,OU=Admins,OU=LAB,DC=ad-lab-d...
+svc.securityapp     True LAB service account for security application / scripted access  CN=Service SecurityApp,OU=SecurityApp,OU=ServiceAccounts,...
+
+
+# Account > GG
+[GG_LAB_AllUsers]
+
+Name             SamAccountName   ObjectClass
+----             --------------   -----------
+Board User01     board.user01     user
+Board User02     board.user02     user
+Board User03     board.user03     user
+Board User04     board.user04     user
+Finance User01   finance.user01   user
+Finance User02   finance.user02   user
+Finance User03   finance.user03   user
+Finance User04   finance.user04   user
+HR User01        hr.user01        user
+HR User02        hr.user02        user
+HR User03        hr.user03        user
+HR User04        hr.user04        user
+IT User01        it.user01        user
+IT User02        it.user02        user
+IT User03        it.user03        user
+IT User04        it.user04        user
+Marketing User01 marketing.user01 user
+Marketing User02 marketing.user02 user
+Marketing User03 marketing.user03 user
+Marketing User04 marketing.user04 user
+Sales User01     sales.user01     user
+Sales User02     sales.user02     user
+Sales User03     sales.user03     user
+Sales User04     sales.user04     user
+
+
+
+[GG_LAB_Directors]
+
+Name             SamAccountName   ObjectClass
+----             --------------   -----------
+Finance User01   finance.user01   user
+HR User01        hr.user01        user
+IT User01        it.user01        user
+Marketing User01 marketing.user01 user
+Sales User01     sales.user01     user
+
+
+
+[GG_Board_Members]
+
+Name         SamAccountName ObjectClass
+----         -------------- -----------
+Board User01 board.user01   user
+Board User02 board.user02   user
+Board User03 board.user03   user
+Board User04 board.user04   user
+
+
+
+[GG_LAB_Admins]
+
+Name            SamAccountName  ObjectClass
+----            --------------  -----------
+Admin it.user01 admin.it.user01 user
+Admin it.user02 admin.it.user02 user
+Admin it.user03 admin.it.user03 user
+Admin it.user04 admin.it.user04 user
+
+
+
+[GG_LAB_BreakGlass]
+
+Name       SamAccountName ObjectClass
+----       -------------- -----------
+Super User super.user     user
+
+
+
+[GG_LAB_HoneyObjects]
+
+Name         SamAccountName ObjectClass
+----         -------------- -----------
+Admin Backup admin.backup   user
+
+
+# Computers
+
+
+
+
+

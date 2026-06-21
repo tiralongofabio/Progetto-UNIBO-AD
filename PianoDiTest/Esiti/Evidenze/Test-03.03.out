@@ -1,0 +1,65 @@
+﻿TestId=Test-03.03
+Started=2026-06-09T19:19:57.1692129+02:00
+Computer=DC01
+User=AD-LAB-DOMAIN\admin.it.user03
+---
+2026-06-09T19:20:01.2719692+02:00 [DATA] Profile=Domain Enabled=1 In=4
+2026-06-09T19:20:01.2719692+02:00 [PASS] Firewall attivo: Domain
+2026-06-09T19:20:01.2875925+02:00 [DATA] Profile=Private Enabled=1 In=4
+2026-06-09T19:20:01.2875925+02:00 [PASS] Firewall attivo: Private
+2026-06-09T19:20:01.3032185+02:00 [DATA] Profile=Public Enabled=1 In=4
+2026-06-09T19:20:01.3102518+02:00 [PASS] Firewall attivo: Public
+2026-06-09T19:20:01.3192992+02:00 [DATA] Rule=Funzionalità di base rete - IPv6 (IPv6-In) Action=2 Profile=0
+2026-06-09T19:20:01.3349529+02:00 [DATA] Rule=Ottimizzazione recapito (UDP-In) Action=2 Profile=0
+2026-06-09T19:20:01.3415110+02:00 [DATA] Rule=Funzionalità di base rete - Annuncio router (ICMPv6-In) Action=2 Profile=0
+2026-06-09T19:20:01.3510593+02:00 [DATA] Rule=Funzionalità di base rete - Destinazione non raggiungibile, necessaria frammentazione (ICMPv4-In) Action=2 Profile=0
+2026-06-09T19:20:01.3667240+02:00 [DATA] Rule=Funzionalità di base rete - DHCP (Dynamic Host Configuration Protocol) (DHCP-In) Action=2 Profile=0
+2026-06-09T19:20:01.3727679+02:00 [DATA] Rule=Condivisione file e stampanti (servizio spooler - RPC) Action=2 Profile=0
+2026-06-09T19:20:01.3828069+02:00 [DATA] Rule=Funzionalità di base rete - Dynamic Host Configuration Protocol per IPv6 (DHCPV6-In) Action=2 Profile=0
+2026-06-09T19:20:01.3828069+02:00 [DATA] Rule=Funzionalità di base rete - Richiesta individuazione router adiacenti (ICMPv6-In) Action=2 Profile=0
+2026-06-09T19:20:01.3984473+02:00 [DATA] Rule=Gestione remota Windows (HTTP-In) Action=2 Profile=3
+2026-06-09T19:20:01.4040101+02:00 [DATA] Rule=Ottimizzazione recapito (TCP-In) Action=2 Profile=0
+2026-06-09T19:20:01.4145203+02:00 [DATA] Rule=Condivisione file e stampanti (NB-Name-In) Action=2 Profile=0
+2026-06-09T19:20:01.4145203+02:00 [DATA] Rule=Funzionalità di base rete - Richiesta router (ICMPv6-In) Action=2 Profile=0
+2026-06-09T19:20:01.4301768+02:00 [DATA] Rule=Condivisione file e stampanti (servizio spooler - RPC-EPMAP) Action=2 Profile=0
+2026-06-09T19:20:01.4352144+02:00 [DATA] Rule=Funzionalità di base rete - Annuncio individuazione router adiacenti (ICMPv6-In) Action=2 Profile=0
+2026-06-09T19:20:01.4462476+02:00 [DATA] Rule=Servizio peer caching BITS (NB-Session-In) Action=2 Profile=0
+2026-06-09T19:20:01.4462476+02:00 [DATA] Rule=Funzionalità di base rete - Problema parametro (ICMPv6-In) Action=2 Profile=0
+2026-06-09T19:20:01.4664273+02:00 [DATA] Rule=Condivisione file e stampanti (richiesta echo - ICMPv4-In) Action=2 Profile=0
+2026-06-09T19:20:01.4779599+02:00 [DATA] Rule=Funzionalità di base rete - Teredo (UDP-In) Action=2 Profile=0
+2026-06-09T19:20:01.4779599+02:00 [DATA] Rule=Condivisione file e stampanti (SMB-In) Action=2 Profile=0
+2026-06-09T19:20:01.4976833+02:00 [DATA] Rule=mDNS (UDP-In) Action=2 Profile=2
+2026-06-09T19:20:01.5097536+02:00 [DATA] Rule=Funzionalità di base rete - Pacchetto di dimensioni troppo grandi (ICMPv6-In) Action=2 Profile=0
+2026-06-09T19:20:01.5097536+02:00 [DATA] Rule=Funzionalità di base rete - IPHTTPS (TCP-In) Action=2 Profile=0
+2026-06-09T19:20:01.5254238+02:00 [DATA] Rule=Router AllJoyn (TCP-In) Action=2 Profile=3
+2026-06-09T19:20:01.5289343+02:00 [DATA] Rule=Router AllJoyn (UDP-In) Action=2 Profile=3
+2026-06-09T19:20:01.5414899+02:00 [DATA] Rule=Funzionalità di base rete - Listener multicast completato (ICMPv6-In) Action=2 Profile=0
+2026-06-09T19:20:01.5414899+02:00 [DATA] Rule=Funzionalità di base rete - Destinazione non raggiungibile (ICMPv6-In) Action=2 Profile=0
+2026-06-09T19:20:01.5601763+02:00 [DATA] Rule=Condivisione file e stampanti (richiesta echo - ICMPv6-In) Action=2 Profile=0
+2026-06-09T19:20:01.5732033+02:00 [DATA] Rule=Gestione remota Windows (HTTP-In) Action=2 Profile=4
+2026-06-09T19:20:01.5732033+02:00 [DATA] Rule=Funzionalità di base rete - IGMP (Internet Group Management Protocol) (IGMP-In) Action=2 Profile=0
+2026-06-09T19:20:01.5914170+02:00 [DATA] Rule=Funzionalità di base rete - Report listener multicast v2 (ICMPv6-In) Action=2 Profile=0
+2026-06-09T19:20:01.6049401+02:00 [DATA] Rule=Condivisione file e stampanti (NB-Datagram-In) Action=2 Profile=0
+2026-06-09T19:20:01.6049401+02:00 [DATA] Rule=Funzionalità di base rete - Query listener multicast (ICMPv6-In) Action=2 Profile=0
+2026-06-09T19:20:01.6226296+02:00 [DATA] Rule=Condivisione file e stampanti (LLMNR-UDP-In) Action=2 Profile=0
+2026-06-09T19:20:01.6226296+02:00 [DATA] Rule=Funzionalità di base rete - Report listener multicast (ICMPv6-In) Action=2 Profile=0
+2026-06-09T19:20:01.6366652+02:00 [DATA] Rule=Funzionalità di base rete - Tempo scaduto (ICMPv6-In) Action=2 Profile=0
+2026-06-09T19:20:01.6366652+02:00 [DATA] Rule=mDNS (UDP-In) Action=2 Profile=1
+2026-06-09T19:20:01.6538694+02:00 [DATA] Rule=mDNS (UDP-In) Action=2 Profile=4
+2026-06-09T19:20:01.6683980+02:00 [DATA] Rule=LAB-Allow-ICMPv4-In Action=2 Profile=0
+2026-06-09T19:20:01.6683980+02:00 [DATA] Rule=LAB-Allow-SMB-In Action=2 Profile=0
+2026-06-09T19:20:01.6851138+02:00 [DATA] Rule=LAB-Allow-ICMPv4-In Action=2 Profile=0
+2026-06-09T19:20:01.6851138+02:00 [DATA] Rule=LAB-Allow-WinRM-From-DC01 Action=2 Profile=0
+2026-06-09T19:20:01.7001415+02:00 [DATA] Rule=Gestione remota file server (DCOM-In) Action=2 Profile=0
+2026-06-09T19:20:01.7001415+02:00 [DATA] Rule=Gestione remota file server (WMI-In) Action=2 Profile=0
+2026-06-09T19:20:01.7163453+02:00 [DATA] Rule=Gestione remota file server (SMB-In) Action=2 Profile=0
+2026-06-09T19:20:01.7318655+02:00 [DATA] Rule=LAB-FS-Allow-SMB-445-From-Lab Action=2 Profile=0
+2026-06-09T19:20:01.7318655+02:00 [DATA] Rule=LAB-FS-Allow-WinRM-5985-From-DC01 Action=2 Profile=0
+2026-06-09T19:20:01.7473952+02:00 [DATA] Rule=LAB-FS-Allow-RDP-3389-From-AdminSources Action=2 Profile=0
+2026-06-09T19:20:01.7473952+02:00 [DATA] Rule=LAB-FS-Allow-ICMPv4-From-Lab Action=2 Profile=0
+2026-06-09T19:20:01.9036226+02:00 [PASS] Porta attesa SRV-FS-001:445 raggiungibile
+2026-06-09T19:20:02.0442117+02:00 [PASS] Porta attesa SRV-FS-001:5985 raggiungibile
+---
+Warnings=0
+Completed=2026-06-09T19:20:02.0442117+02:00
+Result=PASS

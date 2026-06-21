@@ -1,0 +1,16 @@
+﻿TestId=Test-03.01
+Started=2026-06-09T19:19:06.3254810+02:00
+Computer=DC01
+User=AD-LAB-DOMAIN\admin.it.user03
+---
+2026-06-09T19:19:06.3254810+02:00 [PASS] Modulo importato: GroupPolicy
+2026-06-09T19:19:06.3567036+02:00 [PASS] GPO=GPO-LAB-DomainControllers-Firewall Id=398a5eae-8e94-48d5-bb25-a0e209f05311 Status=AllSettingsEnabled
+2026-06-09T19:19:06.3879505+02:00 [PASS] GPO=GPO-LAB-Workstations-Firewall Id=ebec0d15-f936-45ff-84ed-fb80aa47f3bc Status=AllSettingsEnabled
+2026-06-09T19:19:06.4036026+02:00 [PASS] GPO=GPO-LAB-FileServers-Firewall Id=e2d8dfd6-9563-4816-a99a-c320651281d7 Status=AllSettingsEnabled
+2026-06-09T19:19:06.4348436+02:00 [PASS] GPO=GPO-LAB-AppServers-Firewall Id=61dfc061-2389-438e-8aa0-0ce29db14f55 Status=AllSettingsEnabled
+2026-06-09T19:19:06.4504347+02:00 [PASS] GPO=GPO-LAB-DBServers-Firewall Id=7eab19ef-6fb1-4256-9579-02c700b74c5e Status=AllSettingsEnabled
+2026-06-09T19:19:06.4660690+02:00 [PASS] GPO=GPO-LAB-Staging-Firewall Id=141dc5eb-601e-4f7b-996b-652716bc0640 Status=AllSettingsEnabled
+---
+Warnings=0
+Completed=2026-06-09T19:19:06.4817181+02:00
+Result=PASS

@@ -1,0 +1,17 @@
+﻿TestId=Test-02.01
+Started=2026-06-09T19:18:10.6066948+02:00
+Computer=DC01
+User=AD-LAB-DOMAIN\admin.it.user03
+---
+2026-06-09T19:18:10.6223186+02:00 [PASS] Modulo importato: ActiveDirectory
+2026-06-09T19:18:10.7004514+02:00 [PASS] Dominio=ad-lab-domain.local DN=DC=ad-lab-domain,DC=local
+2026-06-09T19:18:10.7317183+02:00 [DATA] Computer=DC01 DN=CN=DC01,OU=Domain Controllers,DC=ad-lab-domain,DC=local
+2026-06-09T19:18:10.7317183+02:00 [PASS] DC01 in OU attesa
+2026-06-09T19:18:10.7473179+02:00 [DATA] Computer=SRV-FS-001 DN=CN=SRV-FS-001,OU=FileServers,OU=Servers,OU=Computers,OU=LAB,DC=ad-lab-domain,DC=local
+2026-06-09T19:18:10.7629450+02:00 [PASS] SRV-FS-001 in OU attesa
+2026-06-09T19:18:10.7629450+02:00 [DATA] Computer=CLI01 DN=CN=CLI01,OU=Workstations,OU=Computers,OU=LAB,DC=ad-lab-domain,DC=local
+2026-06-09T19:18:10.7785673+02:00 [PASS] CLI01 in OU attesa
+---
+Warnings=0
+Completed=2026-06-09T19:18:10.7941941+02:00
+Result=PASS

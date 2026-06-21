@@ -1,0 +1,190 @@
+﻿TestId=Test-04.02
+Started=2026-06-09T20:04:58.2674429+02:00
+Computer=DC01
+User=AD-LAB-DOMAIN\admin.it.user03
+FileServer=SRV-FS-001
+RootPath=D:\Shares
+StrictAGDLP=False
+---
+2026-06-09T20:04:58.8761704+02:00 [DATA] ACL Path=D:\Shares\Shared
+2026-06-09T20:04:58.8917952+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:58.9074226+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:58.9129617+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Shared_MD; Rights=Modify, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:58.9235062+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Shared_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:58.9235062+02:00 [DATA] ACL Path=D:\Shares\Departments
+2026-06-09T20:04:58.9391705+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:58.9442333+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:58.9552724+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Departments_ROOT_RX; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:58.9552724+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Departments_ROOT_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:58.9754684+02:00 [DATA] ACL Path=D:\Shares\Governance
+2026-06-09T20:04:58.9870170+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.0026696+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.0066816+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Governance_ROOT_RX; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.0187390+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Governance_ROOT_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.0187390+02:00 [DATA] ACL Path=D:\Shares\Departments\HR
+2026-06-09T20:04:59.0379886+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.0379886+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.0505445+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_HR_Public_MD; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.0505445+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_HR_Public_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.0692104+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_HR_Internal_MD; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.0822427+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_HR_Internal_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.0822427+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_HR_Confidential_MD; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.1004462+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_HR_Confidential_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.1140032+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_HR_Public_RO; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.1296597+02:00 [DATA] ACL Path=D:\Shares\Departments\HR\Public
+2026-06-09T20:04:59.1316855+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.1457165+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.1614014+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_HR_Public_MD; Rights=Modify, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.1774825+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_HR_Public_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.1774825+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_HR_Public_WO; Rights=CreateFiles, AppendData, ReadAttributes, ReadPermissions, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.1942170+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_HR_Public_RO; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.2092733+02:00 [PASS] ACL area dipartimentale coerente: D:\Shares\Departments\HR\Public
+2026-06-09T20:04:59.2254259+02:00 [DATA] ACL Path=D:\Shares\Departments\HR\Internal
+2026-06-09T20:04:59.2254259+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.2409567+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.2565149+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_HR_Internal_MD; Rights=Modify, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.2721550+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_HR_Internal_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.2877148+02:00 [PASS] ACL area dipartimentale coerente: D:\Shares\Departments\HR\Internal
+2026-06-09T20:04:59.2877148+02:00 [DATA] ACL Path=D:\Shares\Departments\HR\Confidential
+2026-06-09T20:04:59.3033753+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.3189019+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.3345681+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_HR_Confidential_MD; Rights=Modify, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.3501831+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_HR_Confidential_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.3501831+02:00 [PASS] ACL area dipartimentale coerente: D:\Shares\Departments\HR\Confidential
+2026-06-09T20:04:59.3658116+02:00 [DATA] ACL Path=D:\Shares\Departments\IT
+2026-06-09T20:04:59.3814458+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.3971001+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.3971001+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_IT_Public_MD; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.4126635+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_IT_Public_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.4283442+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_IT_Internal_MD; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.4439079+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_IT_Internal_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.4439079+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_IT_Confidential_MD; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.4595904+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_IT_Confidential_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.4752132+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_IT_Public_RO; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.4908332+02:00 [DATA] ACL Path=D:\Shares\Departments\IT\Public
+2026-06-09T20:04:59.4908332+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.5064750+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.5221108+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_IT_Public_MD; Rights=Modify, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.5221108+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_IT_Public_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.5376861+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_IT_Public_WO; Rights=CreateFiles, AppendData, ReadAttributes, ReadPermissions, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.5533459+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_IT_Public_RO; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.5533459+02:00 [PASS] ACL area dipartimentale coerente: D:\Shares\Departments\IT\Public
+2026-06-09T20:04:59.5689028+02:00 [DATA] ACL Path=D:\Shares\Departments\IT\Internal
+2026-06-09T20:04:59.5845648+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.6002066+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.6002066+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_IT_Internal_MD; Rights=Modify, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.6158402+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_IT_Internal_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.6314704+02:00 [PASS] ACL area dipartimentale coerente: D:\Shares\Departments\IT\Internal
+2026-06-09T20:04:59.6470820+02:00 [DATA] ACL Path=D:\Shares\Departments\IT\Confidential
+2026-06-09T20:04:59.6470820+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.6627213+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.6783267+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_IT_Confidential_MD; Rights=Modify, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.6939694+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_IT_Confidential_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.7095774+02:00 [PASS] ACL area dipartimentale coerente: D:\Shares\Departments\IT\Confidential
+2026-06-09T20:04:59.7095774+02:00 [DATA] ACL Path=D:\Shares\Departments\Finance
+2026-06-09T20:04:59.7252379+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.7408618+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.7408618+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Finance_Public_MD; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.7564575+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Finance_Public_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.7721028+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Finance_Internal_MD; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.7877099+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Finance_Internal_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.7877099+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Finance_Confidential_MD; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.8033373+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Finance_Confidential_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.8189649+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Finance_Public_RO; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.8345896+02:00 [DATA] ACL Path=D:\Shares\Departments\Finance\Public
+2026-06-09T20:04:59.8345896+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.8502341+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.8659181+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Finance_Public_MD; Rights=Modify, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.8815014+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Finance_Public_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.8971235+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Finance_Public_WO; Rights=CreateFiles, AppendData, ReadAttributes, ReadPermissions, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.8971235+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Finance_Public_RO; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.9127401+02:00 [PASS] ACL area dipartimentale coerente: D:\Shares\Departments\Finance\Public
+2026-06-09T20:04:59.9283654+02:00 [DATA] ACL Path=D:\Shares\Departments\Finance\Internal
+2026-06-09T20:04:59.9440070+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.9596107+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.9596107+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Finance_Internal_MD; Rights=Modify, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:04:59.9752523+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Finance_Internal_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:04:59.9908594+02:00 [PASS] ACL area dipartimentale coerente: D:\Shares\Departments\Finance\Internal
+2026-06-09T20:05:00.0065133+02:00 [DATA] ACL Path=D:\Shares\Departments\Finance\Confidential
+2026-06-09T20:05:00.0221429+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.0221429+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.0377594+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Finance_Confidential_MD; Rights=Modify, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.0533872+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Finance_Confidential_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.0690288+02:00 [PASS] ACL area dipartimentale coerente: D:\Shares\Departments\Finance\Confidential
+2026-06-09T20:05:00.0690288+02:00 [WARN] Path atteso mancante: D:\Shares\Departments\Legal >> Non Previsto - Falso positivo
+2026-06-09T20:05:00.0846417+02:00 [WARN] Path atteso mancante: D:\Shares\Departments\Legal\Public >> Non Previsto - Falso positivo
+2026-06-09T20:05:00.1002456+02:00 [WARN] Path atteso mancante: D:\Shares\Departments\Legal\Internal >> Non Previsto - Falso positivo
+2026-06-09T20:05:00.1158881+02:00 [WARN] Path atteso mancante: D:\Shares\Departments\Legal\Confidential >> Non Previsto - Falso positivo
+2026-06-09T20:05:00.1158881+02:00 [DATA] ACL Path=D:\Shares\Departments\Marketing
+2026-06-09T20:05:00.1315138+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.1471429+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.1627515+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Marketing_Public_MD; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.1627515+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Marketing_Public_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.1783979+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Marketing_Internal_MD; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.1940340+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Marketing_Internal_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.2096658+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Marketing_Confidential_MD; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.2096658+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Marketing_Confidential_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.2252832+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Marketing_Public_RO; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.2409220+02:00 [DATA] ACL Path=D:\Shares\Departments\Marketing\Public
+2026-06-09T20:05:00.2565477+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.2721588+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.2721588+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Marketing_Public_MD; Rights=Modify, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.2877919+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Marketing_Public_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.3033958+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Marketing_Public_WO; Rights=CreateFiles, AppendData, ReadAttributes, ReadPermissions, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.3190185+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Marketing_Public_RO; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.3346473+02:00 [PASS] ACL area dipartimentale coerente: D:\Shares\Departments\Marketing\Public
+2026-06-09T20:05:00.3503154+02:00 [DATA] ACL Path=D:\Shares\Departments\Marketing\Internal
+2026-06-09T20:05:00.3659015+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.3815531+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.3971500+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Marketing_Internal_MD; Rights=Modify, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.3971500+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Marketing_Internal_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.4128006+02:00 [PASS] ACL area dipartimentale coerente: D:\Shares\Departments\Marketing\Internal
+2026-06-09T20:05:00.4284304+02:00 [DATA] ACL Path=D:\Shares\Departments\Marketing\Confidential
+2026-06-09T20:05:00.4440481+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.4596566+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.4596566+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Marketing_Confidential_MD; Rights=Modify, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.4753125+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Marketing_Confidential_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.4909345+02:00 [PASS] ACL area dipartimentale coerente: D:\Shares\Departments\Marketing\Confidential
+2026-06-09T20:05:00.5065690+02:00 [DATA] ACL Path=D:\Shares\Departments\Sales
+2026-06-09T20:05:00.5221972+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.5221972+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.5378312+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Sales_Public_MD; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.5534172+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Sales_Public_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.5534172+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Sales_Internal_MD; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.5690580+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Sales_Internal_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.5846812+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Sales_Confidential_MD; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.6003222+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Sales_Confidential_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.6159466+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Sales_Public_RO; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.6159466+02:00 [DATA] ACL Path=D:\Shares\Departments\Sales\Public
+2026-06-09T20:05:00.6315509+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.6472073+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.6628230+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Sales_Public_MD; Rights=Modify, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.6628230+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Sales_Public_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.6784432+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Sales_Public_WO; Rights=CreateFiles, AppendData, ReadAttributes, ReadPermissions, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.6940809+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Sales_Public_RO; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.7097094+02:00 [PASS] ACL area dipartimentale coerente: D:\Shares\Departments\Sales\Public
+2026-06-09T20:05:00.7253314+02:00 [DATA] ACL Path=D:\Shares\Departments\Sales\Internal
+2026-06-09T20:05:00.7253314+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.7409539+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.7565916+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Sales_Internal_MD; Rights=Modify, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.7722179+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Sales_Internal_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.7878421+02:00 [PASS] ACL area dipartimentale coerente: D:\Shares\Departments\Sales\Internal
+2026-06-09T20:05:00.7878421+02:00 [DATA] ACL Path=D:\Shares\Departments\Sales\Confidential
+2026-06-09T20:05:00.8034415+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.8191049+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.8347165+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Sales_Confidential_MD; Rights=Modify, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.8503433+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Sales_Confidential_FC; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.8659614+02:00 [PASS] ACL area dipartimentale coerente: D:\Shares\Departments\Sales\Confidential
+2026-06-09T20:05:00.8659614+02:00 [WARN] Path atteso mancante: D:\Shares\Departments\Operations >> Non Previsto - Falso positivo
+2026-06-09T20:05:00.8816536+02:00 [WARN] Path atteso mancante: D:\Shares\Departments\Operations\Public >> Non Previsto - Falso positivo
+2026-06-09T20:05:00.8972201+02:00 [WARN] Path atteso mancante: D:\Shares\Departments\Operations\Internal >> Non Previsto - Falso positivo
+2026-06-09T20:05:00.9128547+02:00 [WARN] Path atteso mancante: D:\Shares\Departments\Operations\Confidential >> Non Previsto - Falso positivo
+2026-06-09T20:05:00.9284772+02:00 [DATA] ACL Path=D:\Shares\Governance\Board
+2026-06-09T20:05:00.9284772+02:00 [DATA]   Identity=NT AUTHORITY\SYSTEM; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.9440968+02:00 [DATA]   Identity=BUILTIN\Administrators; Rights=FullControl; Type=Allow; Inherited=False
+2026-06-09T20:05:00.9597078+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Governance_Board_ROOT_RX; Rights=ReadAndExecute, Synchronize; Type=Allow; Inherited=False
+2026-06-09T20:05:00.9753627+02:00 [DATA]   Identity=AD-LAB-DOMAIN\DL_FS_Governance_Board_ROOT_FC; Rights=FullControl; Type=Allow; Inherited=False
+---
+Warnings=8 >> Falsi positivi - PASS
+Completed=2026-06-09T20:05:00.9909615+02:00
+Result=PASS
