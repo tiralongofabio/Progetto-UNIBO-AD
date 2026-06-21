@@ -1,0 +1,4 @@
+﻿==== HONEY/KERBEROS TRAP ALERT 2026-06-20T11:43:25.7491376+02:00 ====
+Subject=admin.backup
+Time=2026-06-20T11:42:24.9513913+02:00; Id=6601; Provider=LAB-AD-HoneyTrap; Machine=DC01.ad-lab-domain.local
+Message=SIMULAZIONE SICURA TRAP: attivita' sospetta controllata su honey user 'admin.backup'. Nessun brute force eseguito. Timestamp=2026-06-20T11:42:24.9513913+02:00

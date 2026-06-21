@@ -1,0 +1,130 @@
+﻿Criteri di controllo di sistema
+
+Categoria/Sottocategoria                  Impostazione
+Sistema
+  Estensione stato sicurezza              Nessun controllo
+
+  Integrità sistema                       Esito positivo e negativo
+
+  Driver IPSec                            Nessun controllo
+
+  Altri eventi di sistema                 Esito positivo e negativo
+
+  Modifica stato sicurezza                Operazione riuscita
+
+Accesso/fine sess.
+  Accesso                                 Esito positivo e negativo
+
+  Disconnessione                          Operazione riuscita
+
+  Blocco account                          Operazione riuscita
+
+  Modalità principale IPSec               Nessun controllo
+
+  Modalità rapida IPSec                   Nessun controllo
+
+  Modalità estesa IPSec                   Nessun controllo
+
+  Accesso speciale                        Operazione riuscita
+
+  Altri eventi di accesso/fine sessione   Nessun controllo
+
+  Server dei criteri di rete              Esito positivo e negativo
+
+  Richiesti diritti da utenti/dispositivi Nessun controllo
+
+  Appartenenza a gruppi                   Nessun controllo
+
+Accesso agli oggetti
+  File system                             Nessun controllo
+
+  Registro di sistema                     Nessun controllo
+
+  Oggetto kernel                          Nessun controllo
+
+  SAM                                     Nessun controllo
+
+  Servizi di certificazione               Nessun controllo
+
+  Generato dall'applicazione              Nessun controllo
+
+  Manipolazione handle                    Nessun controllo
+
+  Condivisione file                       Nessun controllo
+
+  Mancata elaborazione pacchetti Piattaforma filtro WindowsNessun controllo
+
+  Connessione a Piattaforma filtro WindowsNessun controllo
+
+  Altri eventi di accesso agli oggetti    Nessun controllo
+
+  Condivisione file dettagliata           Nessun controllo
+
+  Archivi rimovibili                      Nessun controllo
+
+  Gestione temporanea criteri centrali    Nessun controllo
+
+Uso del privilegio
+  Utilizzo privilegi non sensibili        Nessun controllo
+
+  Altri eventi di utilizzo di privilegi   Nessun controllo
+
+  Utilizzo privilegi sensibili            Nessun controllo
+
+Analisi dettagliata
+  Creazione di processi                   Nessun controllo
+
+  Chiusura di processi                    Nessun controllo
+
+  Attività DPAPI                          Nessun controllo
+
+  Eventi RPC                              Nessun controllo
+
+  Eventi Plug and Play                    Nessun controllo
+
+  Eventi di modifica diritti token        Nessun controllo
+
+Modifica criterio
+  Modifica del criterio di controllo      Operazione riuscita
+
+  Modifica criteri di autenticazione      Operazione riuscita
+
+  Modifica criteri di autorizzazione      Nessun controllo
+
+  Modifica criteri a livello di regola MPSSVCNessun controllo
+
+  Modifica criteri Piattaforma filtro WindowsNessun controllo
+
+  Altri eventi di modifica criteri        Nessun controllo
+
+Gestione account
+  Gestione account computer               Operazione riuscita
+
+  Gestione gruppi di sicurezza            Operazione riuscita
+
+  Gestione gruppi di distribuzione        Nessun controllo
+
+  Gestione gruppi di applicazioni         Nessun controllo
+
+  Altri eventi di gestione account        Nessun controllo
+
+  Gestione account utente                 Operazione riuscita
+
+Accesso DS
+  Accesso al servizio directory           Operazione riuscita
+
+  Modifiche servizio directory            Nessun controllo
+
+  Replica servizio directory              Nessun controllo
+
+  Replica dettagliata servizio directory  Nessun controllo
+
+Accesso account
+  Operazioni ticket di servizio Kerberos  Operazione riuscita
+
+  Altri eventi di accesso account         Nessun controllo
+
+  Servizio di autenticazione Kerberos     Operazione riuscita
+
+  Convalida delle credenziali             Operazione riuscita
+
