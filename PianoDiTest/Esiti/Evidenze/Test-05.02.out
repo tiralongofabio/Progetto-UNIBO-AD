@@ -1,0 +1,136 @@
+﻿TestId=Test-05.02
+Started=2026-06-13T18:22:36.4222722+02:00
+Computer=DC01
+User=AD-LAB-DOMAIN\admin.it.user03
+---
+2026-06-13T18:22:37.3829313+02:00 [DATA] SYSVOL=\\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies
+2026-06-13T18:22:37.6641788+02:00 [DATA] DrivesXml=\\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies\{BFF31FA3-2239-4771-B1C4-65F22FD2CBCD}\User\Preferences\Drives\Drives.xml
+2026-06-13T18:22:37.7089586+02:00 [DATA] DriveMap File=\\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies\{BFF31FA3-2239-4771-B1C4-65F22FD2CBCD}\User\Preferences\Drives\Drives.xml; Name=S:; Letter=S; Path=\\SRV-FS-001\Shared; Action=U
+2026-06-13T18:22:37.7406883+02:00 [DATA] DriveMap File=\\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies\{BFF31FA3-2239-4771-B1C4-65F22FD2CBCD}\User\Preferences\Drives\Drives.xml; Name=H:; Letter=H; Path=\\SRV-FS-001\Departments\IT\Internal; Action=U
+2026-06-13T18:22:37.7406883+02:00 [DATA] DriveMap File=\\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies\{BFF31FA3-2239-4771-B1C4-65F22FD2CBCD}\User\Preferences\Drives\Drives.xml; Name=H:; Letter=H; Path=\\SRV-FS-001\Departments\Finance\Internal; Action=U
+2026-06-13T18:22:37.7578863+02:00 [DATA] DriveMap File=\\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies\{BFF31FA3-2239-4771-B1C4-65F22FD2CBCD}\User\Preferences\Drives\Drives.xml; Name=H:; Letter=H; Path=\\SRV-FS-001\Departments\HR\Internal; Action=U
+2026-06-13T18:22:37.7578863+02:00 [DATA] DriveMap File=\\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies\{BFF31FA3-2239-4771-B1C4-65F22FD2CBCD}\User\Preferences\Drives\Drives.xml; Name=H:; Letter=H; Path=\\SRV-FS-001\Departments\Marketing\Internal; Action=U
+2026-06-13T18:22:37.7724376+02:00 [DATA] DriveMap File=\\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies\{BFF31FA3-2239-4771-B1C4-65F22FD2CBCD}\User\Preferences\Drives\Drives.xml; Name=H:; Letter=H; Path=\\SRV-FS-001\Departments\Sales\Internal; Action=U
+2026-06-13T18:22:37.7724376+02:00 [DATA] DriveMap File=\\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies\{BFF31FA3-2239-4771-B1C4-65F22FD2CBCD}\User\Preferences\Drives\Drives.xml; Name=O:; Letter=O; Path=\\SRV-FS-001\Governance\Board\BoardOnly; Action=U
+2026-06-13T18:22:37.7891027+02:00 [DATA] DriveMap File=\\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies\{BFF31FA3-2239-4771-B1C4-65F22FD2CBCD}\User\Preferences\Drives\Drives.xml; Name=G:; Letter=G; Path=\\SRV-FS-001\Governance\Board\BoardDirectors; Action=U
+2026-06-13T18:22:37.8041348+02:00 [DATA] DriveMap File=\\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies\{BFF31FA3-2239-4771-B1C4-65F22FD2CBCD}\User\Preferences\Drives\Drives.xml; Name=G:; Letter=G; Path=\\SRV-FS-001\Governance\Board\BoardDirectors; Action=U
+2026-06-13T18:22:39.9923333+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-DC-Admin-Logon-Rights
+2026-06-13T18:22:40.0050453+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-DC-Admin-Logon-Rights
+2026-06-13T18:22:40.0080710+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-DC-Admin-Logon-Rights
+2026-06-13T18:22:40.6487473+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-Finance-BaseUsers
+2026-06-13T18:22:40.6629202+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-Finance-BaseUsers
+2026-06-13T18:22:40.6639628+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-Finance-BaseUsers
+2026-06-13T18:22:40.7108344+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-Admins-Restrictions
+2026-06-13T18:22:40.7108344+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-Admins-Restrictions
+2026-06-13T18:22:40.7263644+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-Admins-Restrictions
+2026-06-13T18:22:40.7889241+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-Staging-Firewall
+2026-06-13T18:22:40.7889241+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-Staging-Firewall
+2026-06-13T18:22:40.8045394+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-Staging-Firewall
+2026-06-13T18:22:40.8357933+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-AppServers-Hardening
+2026-06-13T18:22:40.8513939+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-AppServers-Hardening
+2026-06-13T18:22:40.8513939+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-AppServers-Hardening
+2026-06-13T18:22:40.8982919+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-Servers-Hardening
+2026-06-13T18:22:40.8982919+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-Servers-Hardening
+2026-06-13T18:22:40.9139189+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-Servers-Hardening
+2026-06-13T18:22:40.9763937+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-Marketing-Directors
+2026-06-13T18:22:40.9763937+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-Marketing-Directors
+2026-06-13T18:22:40.9920200+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-Marketing-Directors
+2026-06-13T18:22:41.0388942+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-IT-BaseUsers
+2026-06-13T18:22:41.0388942+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-IT-BaseUsers
+2026-06-13T18:22:41.0545365+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-IT-BaseUsers
+2026-06-13T18:22:41.1326560+02:00 [DATA] Mapping S: rilevato in GPO report: Default Domain Policy
+2026-06-13T18:22:41.1326560+02:00 [DATA] Mapping O: rilevato in GPO report: Default Domain Policy
+2026-06-13T18:22:41.1482870+02:00 [DATA] Mapping G: rilevato in GPO report: Default Domain Policy
+2026-06-13T18:22:41.1795187+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-DomainControllers-Firewall
+2026-06-13T18:22:41.1951446+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-DomainControllers-Firewall
+2026-06-13T18:22:41.2107817+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-DomainControllers-Firewall
+2026-06-13T18:22:41.2420203+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-ServiceAccounts-Restrictions
+2026-06-13T18:22:41.2420203+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-ServiceAccounts-Restrictions
+2026-06-13T18:22:41.2576447+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-ServiceAccounts-Restrictions
+2026-06-13T18:22:41.2889080+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-DriveMapping
+2026-06-13T18:22:41.3045372+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-DriveMapping
+2026-06-13T18:22:41.3045372+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-DriveMapping
+2026-06-13T18:22:41.3357889+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-Finance-Directors
+2026-06-13T18:22:41.3513986+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-Finance-Directors
+2026-06-13T18:22:41.3670191+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-Finance-Directors
+2026-06-13T18:22:41.3982877+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-HoneyObjects-Restrictions
+2026-06-13T18:22:41.4138932+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-HoneyObjects-Restrictions
+2026-06-13T18:22:41.4138932+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-HoneyObjects-Restrictions
+2026-06-13T18:22:41.4607854+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-IT-Directors
+2026-06-13T18:22:41.4607854+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-IT-Directors
+2026-06-13T18:22:41.4763939+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-IT-Directors
+2026-06-13T18:22:41.5232683+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-AppServers-Firewall
+2026-06-13T18:22:41.5232683+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-AppServers-Firewall
+2026-06-13T18:22:41.5389112+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-AppServers-Firewall
+2026-06-13T18:22:41.5545201+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-Workstations-Hardening
+2026-06-13T18:22:41.5701423+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-Workstations-Hardening
+2026-06-13T18:22:41.5701423+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-Workstations-Hardening
+2026-06-13T18:22:41.6482938+02:00 [DATA] Mapping S: rilevato in GPO report: Default Domain Controllers Policy
+2026-06-13T18:22:41.6482938+02:00 [DATA] Mapping O: rilevato in GPO report: Default Domain Controllers Policy
+2026-06-13T18:22:41.6638933+02:00 [DATA] Mapping G: rilevato in GPO report: Default Domain Controllers Policy
+2026-06-13T18:22:41.7107937+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-Marketing-BaseUsers
+2026-06-13T18:22:41.7107937+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-Marketing-BaseUsers
+2026-06-13T18:22:41.7263934+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-Marketing-BaseUsers
+2026-06-13T18:22:41.7576660+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-DBServers-Firewall
+2026-06-13T18:22:41.7732954+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-DBServers-Firewall
+2026-06-13T18:22:41.7732954+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-DBServers-Firewall
+2026-06-13T18:22:41.8045190+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-Governance-DriveMapping
+2026-06-13T18:22:41.8045190+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-Governance-DriveMapping
+2026-06-13T18:22:41.8201436+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-Governance-DriveMapping
+2026-06-13T18:22:41.8514173+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-HR-Directors
+2026-06-13T18:22:41.8670205+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-HR-Directors
+2026-06-13T18:22:41.8670205+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-HR-Directors
+2026-06-13T18:22:41.9139156+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-Governance-Users
+2026-06-13T18:22:41.9295462+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-Governance-Users
+2026-06-13T18:22:41.9295462+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-Governance-Users
+2026-06-13T18:22:41.9607688+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-Staging-Quarantine
+2026-06-13T18:22:41.9607688+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-Staging-Quarantine
+2026-06-13T18:22:41.9763939+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-Staging-Quarantine
+2026-06-13T18:22:41.9920329+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-FileServers-Hardening
+2026-06-13T18:22:42.0232729+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-FileServers-Hardening
+2026-06-13T18:22:42.0232729+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-FileServers-Hardening
+2026-06-13T18:22:42.0857874+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-Deny-ServiceAccounts-InteractiveLogon
+2026-06-13T18:22:42.0857874+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-Deny-ServiceAccounts-InteractiveLogon
+2026-06-13T18:22:42.1014147+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-Deny-ServiceAccounts-InteractiveLogon
+2026-06-13T18:22:42.1483176+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-Sales-BaseUsers
+2026-06-13T18:22:42.1483176+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-Sales-BaseUsers
+2026-06-13T18:22:42.1638799+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-Sales-BaseUsers
+2026-06-13T18:22:42.1951597+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-Baseline-Computers
+2026-06-13T18:22:42.2107872+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-Baseline-Computers
+2026-06-13T18:22:42.2107872+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-Baseline-Computers
+2026-06-13T18:22:42.3045362+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-DriveMapping-GPP
+2026-06-13T18:22:42.3201900+02:00 [DATA] Mapping H: rilevato in GPO report: GPO-LAB-DriveMapping-GPP
+2026-06-13T18:22:42.3201900+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-DriveMapping-GPP
+2026-06-13T18:22:42.3358090+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-DriveMapping-GPP
+2026-06-13T18:22:42.3670350+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-Baseline-Users
+2026-06-13T18:22:42.3670350+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-Baseline-Users
+2026-06-13T18:22:42.3826592+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-Baseline-Users
+2026-06-13T18:22:42.4295354+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-HR-BaseUsers
+2026-06-13T18:22:42.4295354+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-HR-BaseUsers
+2026-06-13T18:22:42.4451607+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-HR-BaseUsers
+2026-06-13T18:22:42.4764255+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-FileServers-Firewall
+2026-06-13T18:22:42.4920338+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-FileServers-Firewall
+2026-06-13T18:22:42.4920338+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-FileServers-Firewall
+2026-06-13T18:22:42.5545608+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-Workstations-Firewall
+2026-06-13T18:22:42.5545608+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-Workstations-Firewall
+2026-06-13T18:22:42.5701605+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-Workstations-Firewall
+2026-06-13T18:22:42.6014275+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-Sales-Directors
+2026-06-13T18:22:42.6170358+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-Sales-Directors
+2026-06-13T18:22:42.6170358+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-Sales-Directors
+2026-06-13T18:22:42.6482850+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-DBServers-Hardening
+2026-06-13T18:22:42.6482850+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-DBServers-Hardening
+2026-06-13T18:22:42.6639118+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-DBServers-Hardening
+2026-06-13T18:22:42.6951688+02:00 [DATA] Mapping S: rilevato in GPO report: GPO-LAB-BreakGlass-Minimal
+2026-06-13T18:22:42.7107857+02:00 [DATA] Mapping O: rilevato in GPO report: GPO-LAB-BreakGlass-Minimal
+2026-06-13T18:22:42.7264117+02:00 [DATA] Mapping G: rilevato in GPO report: GPO-LAB-BreakGlass-Minimal
+2026-06-13T18:22:42.7264117+02:00 [PASS] Mapping atteso trovato: S: -> \\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies\{BFF31FA3-2239-4771-B1C4-65F22FD2CBCD}\User\Preferences\Drives\Drives.xml -> \\SRV-FS-001\Shared
+2026-06-13T18:22:42.7420869+02:00 [PASS] Mapping atteso trovato: H: -> \\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies\{BFF31FA3-2239-4771-B1C4-65F22FD2CBCD}\User\Preferences\Drives\Drives.xml -> \\SRV-FS-001\Departments\IT\Internal | \\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies\{BFF31FA3-2239-4771-B1C4-65F22FD2CBCD}\User\Preferences\Drives\Drives.xml -> \\SRV-FS-001\Departments\Finance\Internal | \\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies\{BFF31FA3-2239-4771-B1C4-65F22FD2CBCD}\User\Preferences\Drives\Drives.xml -> \\SRV-FS-001\Departments\HR\Internal | \\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies\{BFF31FA3-2239-4771-B1C4-65F22FD2CBCD}\User\Preferences\Drives\Drives.xml -> \\SRV-FS-001\Departments\Marketing\Internal | \\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies\{BFF31FA3-2239-4771-B1C4-65F22FD2CBCD}\User\Preferences\Drives\Drives.xml -> \\SRV-FS-001\Departments\Sales\Internal
+2026-06-13T18:22:42.7420869+02:00 [PASS] Mapping atteso trovato: O: -> \\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies\{BFF31FA3-2239-4771-B1C4-65F22FD2CBCD}\User\Preferences\Drives\Drives.xml -> \\SRV-FS-001\Governance\Board\BoardOnly
+2026-06-13T18:22:42.7576715+02:00 [PASS] Mapping atteso trovato: G: -> \\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies\{BFF31FA3-2239-4771-B1C4-65F22FD2CBCD}\User\Preferences\Drives\Drives.xml -> \\SRV-FS-001\Governance\Board\BoardDirectors | \\ad-lab-domain.local\SYSVOL\ad-lab-domain.local\Policies\{BFF31FA3-2239-4771-B1C4-65F22FD2CBCD}\User\Preferences\Drives\Drives.xml -> \\SRV-FS-001\Governance\Board\BoardDirectors
+2026-06-13T18:22:42.7889112+02:00 [PASS] Riferimento mapping presente in Drives.xml: SRV-FS-001
+2026-06-13T18:22:42.7889112+02:00 [PASS] Riferimento mapping presente in Drives.xml: Departments
+2026-06-13T18:22:42.8045594+02:00 [PASS] Riferimento mapping presente in Drives.xml: Shared
+---
+Warnings=0
+Completed=2026-06-13T18:22:42.8045594+02:00
+Result=PASS

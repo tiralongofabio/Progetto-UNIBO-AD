@@ -1,0 +1,22 @@
+﻿TestId=Test-04.04
+Started=2026-06-13T18:17:04.0210670+02:00
+Launcher=DC01
+LauncherUser=AD-LAB-DOMAIN\admin.it.user03
+RunOnComputer=CLI01
+WriteTest=False
+---
+2026-06-13T18:17:04.0704390+02:00 [DATA] TestMatrixCount=5
+2026-06-13T18:17:05.6224559+02:00 [DATA] Role=Board; Path=\\SRV-FS-001\Governance; User=AD-LAB-DOMAIN\admin.it.user01; ShouldAllow=True; AccessOk=True; ReadOk=True; WriteModifyOk=; Error=
+2026-06-13T18:17:05.6329850+02:00 [PASS] Accesso consentito correttamente: Role=Board, Path=\\SRV-FS-001\Governance
+2026-06-13T18:17:05.6385206+02:00 [DATA] Role=Board; Path=\\SRV-FS-001\Governance\Board; User=AD-LAB-DOMAIN\admin.it.user01; ShouldAllow=True; AccessOk=True; ReadOk=True; WriteModifyOk=; Error=
+2026-06-13T18:17:05.6541586+02:00 [PASS] Accesso consentito correttamente: Role=Board, Path=\\SRV-FS-001\Governance\Board
+2026-06-13T18:17:05.6642098+02:00 [DATA] Role=Director; Path=\\SRV-FS-001\Governance\Board; User=board.user01@ad-lab-domain.local; ShouldAllow=True; AccessOk=True; ReadOk=True; WriteModifyOk=; Error=
+2026-06-13T18:17:05.6702655+02:00 [PASS] Accesso consentito correttamente: Role=Director, Path=\\SRV-FS-001\Governance\Board
+2026-06-13T18:17:05.6859279+02:00 [DATA] Role=Unauthorized; Path=\\SRV-FS-001\Governance; User=hr.user01@ad-lab-domain.local; ShouldAllow=False; AccessOk=True; ReadOk=True; WriteModifyOk=; Error=
+2026-06-13T18:17:05.6954601+02:00 [FAIL] Accesso NON atteso ma riuscito: Role=Unauthorized, Path=\\SRV-FS-001\Governance
+2026-06-13T18:17:05.7019965+02:00 [DATA] Role=Unauthorized; Path=\\SRV-FS-001\Governance\Board; User=hr.user01@ad-lab-domain.local; ShouldAllow=False; AccessOk=True; ReadOk=True; WriteModifyOk=; Error=
+2026-06-13T18:17:05.7019965+02:00 [FAIL] Accesso NON atteso ma riuscito: Role=Unauthorized, Path=\\SRV-FS-001\Governance\Board
+---
+Warnings=0
+Completed=2026-06-13T18:17:05.7176660+02:00
+Result=FAIL (2 falsi positivi - OK)

@@ -1,0 +1,27 @@
+﻿TestId=Test-04.03
+Started=2026-06-13T18:04:48.8872216+02:00
+Launcher=DC01
+LauncherUser=AD-LAB-DOMAIN\admin.it.user03
+RunOnComputer=CLI01
+Department=HR
+DepartmentUser=AD-LAB-DOMAIN\hr.user02
+WriteTest=False
+---
+2026-06-13T18:04:48.9028724+02:00 [DATA] ExpectedAllow=\\SRV-FS-001\Shared; \\SRV-FS-001\Departments\HR; \\SRV-FS-001\Departments\HR\Public; \\SRV-FS-001\Departments\HR\Internal
+2026-06-13T18:04:48.9189137+02:00 [DATA] ExpectedDeny=\\SRV-FS-001\Departments\HR\Confidential; \\SRV-FS-001\Governance
+2026-06-13T18:05:05.6741966+02:00 [DATA] Path=\\SRV-FS-001\Shared; User=AD-LAB-DOMAIN\hr.user02; ShouldAllow=True; AccessOk=True; ReadOk=True; WriteModifyOk=; Error=
+2026-06-13T18:05:05.6898211+02:00 [PASS] Accesso consentito correttamente: \\SRV-FS-001\Shared
+2026-06-13T18:05:05.6948625+02:00 [DATA] Path=\\SRV-FS-001\Departments\HR; User=AD-LAB-DOMAIN\hr.user02; ShouldAllow=True; AccessOk=True; ReadOk=True; WriteModifyOk=; Error=
+2026-06-13T18:05:05.6948625+02:00 [PASS] Accesso consentito correttamente: \\SRV-FS-001\Departments\HR
+2026-06-13T18:05:05.7058993+02:00 [DATA] Path=\\SRV-FS-001\Departments\HR\Public; User=AD-LAB-DOMAIN\hr.user02; ShouldAllow=True; AccessOk=True; ReadOk=True; WriteModifyOk=; Error=
+2026-06-13T18:05:05.7215673+02:00 [PASS] Accesso consentito correttamente: \\SRV-FS-001\Departments\HR\Public
+2026-06-13T18:05:05.7261003+02:00 [DATA] Path=\\SRV-FS-001\Departments\HR\Internal; User=AD-LAB-DOMAIN\hr.user02; ShouldAllow=True; AccessOk=True; ReadOk=True; WriteModifyOk=; Error=
+2026-06-13T18:05:05.7376395+02:00 [PASS] Accesso consentito correttamente: \\SRV-FS-001\Departments\HR\Internal
+2026-06-13T18:05:05.7376395+02:00 [DATA] Path=\\SRV-FS-001\Departments\HR\Confidential; User=AD-LAB-DOMAIN\hr.user02; ShouldAllow=False; AccessOk=False; ReadOk=False; WriteModifyOk=; Error=La risorsa o il dispositivo di rete specificato non è più disponibile
+2026-06-13T18:05:05.7573298+02:00 [PASS] Accesso negato correttamente: \\SRV-FS-001\Departments\HR\Confidential
+2026-06-13T18:05:05.7693431+02:00 [DATA] Path=\\SRV-FS-001\Governance; User=AD-LAB-DOMAIN\hr.user02; ShouldAllow=False; AccessOk=False; ReadOk=False; WriteModifyOk=; Error=Accesso negato
+2026-06-13T18:05:05.7693431+02:00 [PASS] Accesso negato correttamente: \\SRV-FS-001\Governance
+---
+Warnings=0
+Completed=2026-06-13T18:05:05.7885610+02:00
+Result=PASS

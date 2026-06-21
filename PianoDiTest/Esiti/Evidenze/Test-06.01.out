@@ -1,0 +1,14 @@
+﻿TestId=Test-06.01
+Started=2026-06-13T18:29:45.1015382+02:00
+Computer=DC01
+User=AD-LAB-DOMAIN\admin.it.user03
+---
+2026-06-13T18:29:45.1015382+02:00 [PASS] Modulo importato: ActiveDirectory
+2026-06-13T18:29:45.1785380+02:00 [PASS] Dominio=ad-lab-domain.local DN=DC=ad-lab-domain,DC=local
+2026-06-13T18:29:45.2102508+02:00 [PASS] Honey=admin.backup Enabled=True DN=CN=Admin Backup,OU=Honey-Objects,OU=Admins,OU=LAB,DC=ad-lab-domain,DC=local
+2026-06-13T18:29:45.2419838+02:00 [PASS] Audit policy leggibile
+2026-06-13T18:29:48.2576314+02:00 [WARN] Nessun evento honey nel periodo
+---
+Warnings=1 >> Atteso - OK
+Completed=2026-06-13T18:29:48.2576314+02:00
+Result=PASS

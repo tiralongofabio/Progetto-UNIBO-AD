@@ -1,0 +1,28 @@
+﻿TestId=Test-05.01
+Started=2026-06-13T18:21:07.0721617+02:00
+Computer=DC01
+User=AD-LAB-DOMAIN\admin.it.user03
+---
+2026-06-13T18:21:07.2014189+02:00 [PASS] Modulo importato: GroupPolicy
+2026-06-13T18:21:07.3283610+02:00 [DATA] GPO=GPO-LAB-DC-Admin-Logon-Rights Status=AllSettingsEnabled
+2026-06-13T18:21:07.3283610+02:00 [DATA] GPO=GPO-LAB-Finance-BaseUsers Status=AllSettingsEnabled
+2026-06-13T18:21:07.3283610+02:00 [DATA] GPO=GPO-LAB-Admins-Restrictions Status=AllSettingsEnabled
+2026-06-13T18:21:07.3439974+02:00 [DATA] GPO=GPO-LAB-IT-BaseUsers Status=AllSettingsEnabled
+2026-06-13T18:21:07.3515586+02:00 [DATA] GPO=GPO-LAB-ServiceAccounts-Restrictions Status=AllSettingsEnabled
+2026-06-13T18:21:07.3601171+02:00 [DATA] GPO=GPO-LAB-DriveMapping Status=AllSettingsEnabled
+2026-06-13T18:21:07.3601171+02:00 [DATA] GPO=GPO-LAB-HoneyObjects-Restrictions Status=AllSettingsEnabled
+2026-06-13T18:21:07.3757644+02:00 [DATA] GPO=GPO-LAB-Marketing-BaseUsers Status=AllSettingsEnabled
+2026-06-13T18:21:07.3828204+02:00 [DATA] GPO=GPO-LAB-Governance-DriveMapping Status=AllSettingsEnabled
+2026-06-13T18:21:07.3918327+02:00 [DATA] GPO=GPO-LAB-Governance-Users Status=AllSettingsEnabled
+2026-06-13T18:21:07.3918327+02:00 [DATA] GPO=GPO-LAB-Deny-ServiceAccounts-InteractiveLogon Status=AllSettingsEnabled
+2026-06-13T18:21:07.4075183+02:00 [DATA] GPO=GPO-LAB-Sales-BaseUsers Status=AllSettingsEnabled
+2026-06-13T18:21:07.4140773+02:00 [DATA] GPO=GPO-LAB-Baseline-Computers Status=AllSettingsEnabled
+2026-06-13T18:21:07.4236272+02:00 [DATA] GPO=GPO-LAB-DriveMapping-GPP Status=AllSettingsEnabled
+2026-06-13T18:21:07.4236272+02:00 [DATA] GPO=GPO-LAB-Baseline-Users Status=AllSettingsEnabled
+2026-06-13T18:21:07.4236272+02:00 [DATA] GPO=GPO-LAB-HR-BaseUsers Status=AllSettingsEnabled
+2026-06-13T18:21:07.4453345+02:00 [DATA] GPO=GPO-LAB-BreakGlass-Minimal Status=AllSettingsEnabled
+2026-06-13T18:21:07.4553502+02:00 [PASS] GPO utente candidate presenti
+---
+Warnings=0
+Completed=2026-06-13T18:21:07.4709979+02:00
+Result=PASS

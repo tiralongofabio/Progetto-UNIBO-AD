@@ -1,0 +1,36 @@
+﻿TestId=Test-06.01
+Started=2026-06-21T11:53:18.2403250+02:00
+Computer=DC01
+User=AD-LAB-DOMAIN\admin.it.user03
+HoneyUser=admin.backup
+LookBackHours=24
+RequireEvents=True
+---
+2026-06-21T11:53:18.2619516+02:00 [PASS] Honey-object presente: SamAccountName=admin.backup; Enabled=True; DN=CN=Admin Backup,OU=Honey-Objects,OU=Admins,OU=LAB,DC=ad-lab-domain,DC=local
+2026-06-21T11:53:18.2775907+02:00 [DATA] LastLogonDate=; SPN=SERVICE/testservice
+2026-06-21T11:53:18.2775907+02:00 [DATA] AuditPolicy=Accesso/fine sess.
+2026-06-21T11:53:18.2775907+02:00 [DATA] AuditPolicy=  Accesso                                 Esito positivo e negativo
+2026-06-21T11:53:18.2775907+02:00 [DATA] AuditPolicy=  Blocco account                          Operazione riuscita
+2026-06-21T11:53:18.2775907+02:00 [DATA] AuditPolicy=  Accesso speciale                        Operazione riuscita
+2026-06-21T11:53:18.2931314+02:00 [DATA] AuditPolicy=  Altri eventi di accesso/fine sessione   Nessun controllo
+2026-06-21T11:53:18.2931314+02:00 [DATA] AuditPolicy=Accesso agli oggetti
+2026-06-21T11:53:18.2931314+02:00 [DATA] AuditPolicy=  Altri eventi di accesso agli oggetti    Nessun controllo
+2026-06-21T11:53:18.2931314+02:00 [DATA] AuditPolicy=Gestione account
+2026-06-21T11:53:18.2931314+02:00 [DATA] AuditPolicy=  Gestione account computer               Operazione riuscita
+2026-06-21T11:53:18.2931314+02:00 [DATA] AuditPolicy=  Altri eventi di gestione account        Nessun controllo
+2026-06-21T11:53:18.3087985+02:00 [DATA] AuditPolicy=  Gestione account utente                 Operazione riuscita
+2026-06-21T11:53:18.3087985+02:00 [DATA] AuditPolicy=Accesso DS
+2026-06-21T11:53:18.3087985+02:00 [DATA] AuditPolicy=  Accesso al servizio directory           Operazione riuscita
+2026-06-21T11:53:18.3087985+02:00 [DATA] AuditPolicy=Accesso account
+2026-06-21T11:53:18.3087985+02:00 [DATA] AuditPolicy=  Operazioni ticket di servizio Kerberos  Operazione riuscita
+2026-06-21T11:53:18.3087985+02:00 [DATA] AuditPolicy=  Altri eventi di accesso account         Nessun controllo
+2026-06-21T11:53:18.3087985+02:00 [DATA] AuditPolicy=  Servizio di autenticazione Kerberos     Operazione riuscita
+2026-06-21T11:53:18.3243282+02:00 [DATA] AuditPolicy=  Convalida delle credenziali             Operazione riuscita
+2026-06-21T11:53:18.3243282+02:00 [PASS] Audit policy ispezionata
+2026-06-21T11:53:18.5272674+02:00 [DATA] SecurityEventsMatched=0
+2026-06-21T11:53:18.5740784+02:00 [DATA] CustomTrapEventsMatched=0
+2026-06-21T11:53:18.5740784+02:00 [FAIL] Nessun evento rilevante trovato per admin.backup nelle ultime 24 ore. Eseguire Setup-Test-06.01-Detection.ps1 -EmitTrapEvent e verificare audit policy/logging.
+---
+Warnings=0
+Completed=2026-06-21T11:53:18.5740784+02:00
+Result=FAIL

@@ -1,0 +1,16 @@
+﻿TestId=Test-07.01
+Mode=DetectionOnly
+Started=2026-06-21T22:57:05.1077493+02:00
+Computer=DC01
+User=AD-LAB-DOMAIN\admin.it.user03
+TargetAccount=admin.backup
+LookBackHours=24
+---
+2026-06-21T22:57:05.9627242+02:00 [PASS] TargetAccount trovato: Enabled=True; DN=CN=Admin Backup,OU=Honey-Objects,OU=Admins,OU=LAB,DC=ad-lab-domain,DC=local
+2026-06-21T22:57:05.9824073+02:00 [DATA] SPN=SERVICE/testservice
+2026-06-21T22:57:05.9944338+02:00 [PASS] Audit Kerberos/Account Logon ispezionato
+2026-06-21T22:57:06.4667810+02:00 [WARN] Nessun evento TGS 4769 correlato a admin.backup/SPN nelle ultime 24 ore
+---
+Warnings=1
+Completed=2026-06-21T22:57:06.4823909+02:00
+Result=PASS

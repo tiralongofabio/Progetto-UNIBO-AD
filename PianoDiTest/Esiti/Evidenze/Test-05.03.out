@@ -1,0 +1,13 @@
+﻿TestId=Test-05.03
+Started=2026-06-13T18:23:31.9546884+02:00
+Computer=DC01
+User=AD-LAB-DOMAIN\admin.it.user03
+---
+2026-06-13T18:23:31.9546884+02:00 [PASS] Modulo importato: GroupPolicy
+2026-06-13T18:23:31.9768490+02:00 [PASS] Gruppo service account presente: GG_LAB_ServiceAccounts
+2026-06-13T18:23:32.5701512+02:00 [DATA] Possibile GPO deny logon: GPO-LAB-Deny-ServiceAccounts-InteractiveLogon
+2026-06-13T18:23:32.8358041+02:00 [PASS] Policy deny logon rilevata
+---
+Warnings=0
+Completed=2026-06-13T18:23:32.8358041+02:00
+Result=PASS

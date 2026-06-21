@@ -1,0 +1,37 @@
+﻿TestId=Test-07.02
+Mode=DetectionOnly
+Started=2026-06-21T11:39:58.8558041+02:00
+Computer=DC01
+User=AD-LAB-DOMAIN\admin.it.user03
+HoneyUser=admin.backup
+LookBackHours=24
+---
+2026-06-21T11:39:58.9179835+02:00 [PASS] HoneyUser trovato: SID=S-1-5-21-583327331-4094284534-4084356956-1239; Enabled=True; DN=CN=Admin Backup,OU=Honey-Objects,OU=Admins,OU=LAB,DC=ad-lab-domain,DC=local
+2026-06-21T11:39:58.9179835+02:00 [DATA] DomainSID=S-1-5-21-583327331-4094284534-4084356956
+2026-06-21T11:39:58.9307177+02:00 [DATA] KLIST=
+2026-06-21T11:39:58.9307177+02:00 [DATA] KLIST=ID di accesso corrente: 0:0x3fa75
+2026-06-21T11:39:58.9307177+02:00 [DATA] KLIST=
+2026-06-21T11:39:58.9307177+02:00 [DATA] KLIST=Ticket memorizzati nella cache: (1)
+2026-06-21T11:39:58.9464030+02:00 [DATA] KLIST=
+2026-06-21T11:39:58.9494395+02:00 [DATA] KLIST=#0>	Client: whatever @ AD-LAB-DOMAIN.LOCAL
+2026-06-21T11:39:58.9494395+02:00 [DATA] KLIST=	Server: SERVICE/testservice @ AD-LAB-DOMAIN.LOCAL
+2026-06-21T11:39:58.9494395+02:00 [DATA] KLIST=	KerbTicket Encryption Type: RSADSI RC4-HMAC(NT)
+2026-06-21T11:39:58.9494395+02:00 [DATA] KLIST=	Contrassegni ticket 0x40a00000 -> forwardable renewable pre_authent 
+2026-06-21T11:39:58.9494395+02:00 [DATA] KLIST=	Start Time: 6/21/2026 11:30:10 (locale)
+2026-06-21T11:39:58.9494395+02:00 [DATA] KLIST=	End Time:   6/18/2036 11:30:10 (locale)
+2026-06-21T11:39:58.9625091+02:00 [DATA] KLIST=	Renew Time: 6/18/2036 11:30:10 (locale)
+2026-06-21T11:39:58.9625091+02:00 [DATA] KLIST=	Tipo chiave di sessione: RSADSI RC4-HMAC(NT)
+2026-06-21T11:39:58.9625091+02:00 [DATA] KLIST=	Flag cache: 0 
+2026-06-21T11:39:58.9625091+02:00 [DATA] KLIST=	KDC chiamato: 
+2026-06-21T11:39:58.9625091+02:00 [PASS] Cache Kerberos locale ispezionata
+2026-06-21T11:40:05.1905760+02:00 [DATA] SecurityEventsMatched=1
+2026-06-21T11:40:05.2386084+02:00 [DATA] CustomTrapEventsMatched=1
+2026-06-21T11:40:05.2386084+02:00 [PASS] Eventi Kerberos/logon correlati rilevati: 2
+2026-06-21T11:40:05.2386084+02:00 [DATA] Event Time=2026-06-20T11:42:24.9513913+02:00; Id=6601; Provider=LAB-AD-HoneyTrap; Machine=DC01.ad-lab-domain.local
+2026-06-21T11:40:05.2386084+02:00 [DATA] EventMessage=SIMULAZIONE SICURA TRAP: attivita' sospetta controllata su honey user 'admin.backup'. Nessun brute force eseguito. Timestamp=2026-06-20T11:42:24.9513913+02:00
+2026-06-21T11:40:05.2386084+02:00 [DATA] Event Time=2026-06-20T11:56:29.4256120+02:00; Id=4769; Provider=Microsoft-Windows-Security-Auditing; Machine=DC01.ad-lab-domain.local
+2026-06-21T11:40:05.2386084+02:00 [DATA] EventMessage=È stato richiesto un ticket di servizio Kerberos.    Informazioni sull'account:  	Nome account:		admin.it.user03@AD-LAB-DOMAIN.LOCAL  	Dominio account:		AD-LAB-DOMAIN.LOCAL  	GUID accesso:		{48d91897-c4fb-4d5f-be61-096bb55ea04c}    Informazioni sul servizio:  	Nome servizio:		admin.backup  	ID servizio:		S-1-5-21-583327331-4094284534-4084356956-1239    Informazioni di rete:  	Indirizzo client:		::1  	Porta client:		0    Informazioni aggiuntive:  	Opzioni ticket:		0x810000  	Tipo crittografia ticket:	0x17  	Codice di errore:		0x0  	Servizi transitati:	-    Questo evento viene generato ogni volta che viene richiesto l'accesso a una risorsa, ad esempio un computer o un servizio di Windows. Il nome del servizio indica la risorsa a cui è stato richiesto l'accesso.    Questo evento può essere correlato con gli eventi di accesso di Windows confrontando i campi GUID accesso di ogni evento. L'evento di accesso si verifica nel computer a cui è stato eseguito l'accesso, che è spesso un computer diverso dal controller di dominio che ha originato il ticket di servizio.    Le opzioni del ticket, i tipi di crittografia e i codici di errore sono definiti in RFC 4120.
+---
+Warnings=0
+Completed=2026-06-21T11:40:05.2386084+02:00
+Result=PASS

@@ -1,0 +1,38 @@
+﻿TestId=Test-06.01
+Started=2026-06-21T10:30:47.5416100+02:00
+Computer=DC01
+User=AD-LAB-DOMAIN\Administrator
+HoneyUser=admin.backup
+LookBackHours=24
+RequireEvents=False
+---
+2026-06-21T10:30:47.5576768+02:00 [PASS] Honey-object presente: SamAccountName=admin.backup; Enabled=True; DN=CN=Admin Backup,OU=Honey-Objects,OU=Admins,OU=LAB,DC=ad-lab-domain,DC=local
+2026-06-21T10:30:47.5576768+02:00 [DATA] LastLogonDate=; SPN=SERVICE/testservice
+2026-06-21T10:30:47.5576768+02:00 [DATA] AuditPolicy=Accesso/fine sess.
+2026-06-21T10:30:47.5733307+02:00 [DATA] AuditPolicy=  Accesso                                 Esito positivo e negativo
+2026-06-21T10:30:47.5733307+02:00 [DATA] AuditPolicy=  Blocco account                          Operazione riuscita
+2026-06-21T10:30:47.5803597+02:00 [DATA] AuditPolicy=  Accesso speciale                        Operazione riuscita
+2026-06-21T10:30:47.5803597+02:00 [DATA] AuditPolicy=  Altri eventi di accesso/fine sessione   Nessun controllo
+2026-06-21T10:30:47.5893724+02:00 [DATA] AuditPolicy=Accesso agli oggetti
+2026-06-21T10:30:47.5893724+02:00 [DATA] AuditPolicy=  Altri eventi di accesso agli oggetti    Nessun controllo
+2026-06-21T10:30:47.5893724+02:00 [DATA] AuditPolicy=Gestione account
+2026-06-21T10:30:47.5893724+02:00 [DATA] AuditPolicy=  Gestione account computer               Operazione riuscita
+2026-06-21T10:30:47.5893724+02:00 [DATA] AuditPolicy=  Altri eventi di gestione account        Nessun controllo
+2026-06-21T10:30:47.5893724+02:00 [DATA] AuditPolicy=  Gestione account utente                 Operazione riuscita
+2026-06-21T10:30:47.5893724+02:00 [DATA] AuditPolicy=Accesso DS
+2026-06-21T10:30:47.5893724+02:00 [DATA] AuditPolicy=  Accesso al servizio directory           Operazione riuscita
+2026-06-21T10:30:47.6050372+02:00 [DATA] AuditPolicy=Accesso account
+2026-06-21T10:30:47.6050372+02:00 [DATA] AuditPolicy=  Operazioni ticket di servizio Kerberos  Operazione riuscita
+2026-06-21T10:30:47.6050372+02:00 [DATA] AuditPolicy=  Altri eventi di accesso account         Nessun controllo
+2026-06-21T10:30:47.6115463+02:00 [DATA] AuditPolicy=  Servizio di autenticazione Kerberos     Operazione riuscita
+2026-06-21T10:30:47.6115463+02:00 [DATA] AuditPolicy=  Convalida delle credenziali             Operazione riuscita
+2026-06-21T10:30:47.6115463+02:00 [PASS] Audit policy ispezionata
+2026-06-21T10:30:47.8122565+02:00 [DATA] SecurityEventsMatched=0
+2026-06-21T10:30:47.8623450+02:00 [DATA] CustomTrapEventsMatched=1
+2026-06-21T10:30:47.8623450+02:00 [PASS] Eventi rilevanti trovati: 1
+2026-06-21T10:30:47.8623450+02:00 [DATA] Event Time=2026-06-20T11:42:24.9513913+02:00; Id=6601; Provider=LAB-AD-HoneyTrap; Machine=DC01.ad-lab-domain.local
+2026-06-21T10:30:47.8758606+02:00 [DATA] EventMessage=SIMULAZIONE SICURA TRAP: attivita' sospetta controllata su honey user 'admin.backup'. Nessun brute force eseguito. Timestamp=2026-06-20T11:42:24.9513913+02:00
+---
+Warnings=0
+Completed=2026-06-21T10:30:47.8758606+02:00
+Result=PASS
